@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page  - Ryan Dempsey</title>
+    <link rel="shortcut icon" href="images/RynTrans.png">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,700,700i,800,800i,900,900i" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="overlay">
+            <center><p class="screen">RYAN</p></center>
+            <center><p class="screen2">DEMPSEY</p></center>
+            <div class="intro">
+                    <button class="myBtn" onclick="fadeOut()">MY E-Portfolio</button>
+                    <button class="myBtn2"><a href="https://github.com/vmRyn"target="_blank">MY GITHUB</a></button>
+                    <button class="myBtn3"><a href="contact.html">CONTACT ME</a></button>
+            </div>
+        </div>
+
+        <div class="overlay-2"></div>
+
+        <div class="content">
+            <h1>ABOUT ME</h1>
+            <p class="data">My name is Ryan Dempsey, I am 18 years old and was born on the 18th of June, ever since i have touched a console or something i can play games on i have been very attached to it and still to this day i am attached to games, when i got older i started to understand how games were made and i looked into it and found the world of coding which opened many more interests to me, In secondary school i chose ICT then in College i continued my interest of coding into Software & Web Development and I am still doing it to this day, in the future have a job in some sort of app development or web development as you learn something new every second within the world of coding.</p>
+        </div>
+    </div>
+
+    <script>
+
+     function fadeOut() {
+
+     TweenMax.to(".myBtn", 1, {
+          y: -100,
+          opacity: 0
+     });
+
+     TweenMax.to(".myBtn2", 1, {
+          y: -100,
+          opacity: 0
+     });
+
+     TweenMax.to(".myBtn3", 1, {
+          y: -100,
+          opacity: 0
+     });
+
+     TweenMax.to(".screen", 2, {
+          y: -400,
+          opacity: 0,
+          ease: Power2.easeInOut,
+          delay: 2
+     });
+
+     TweenMax.to(".screen2", 2, {
+          y: -400,
+          opacity: 0,
+          ease: Power2.easeInOut,
+          delay: 2
+     });
+
+     TweenMax.from(".overlay", 2, {
+          ease: Power2.easeInOut
+     });
+
+     TweenMax.to(".overlay", 2, {
+          delay: 2.6,
+          top: "-110%",
+          ease: Expo.easeInOut
+     });
+
+     TweenMax.to(".overlay-2", 2, {
+          delay: 3,
+          top: "-110%",
+          ease: Expo.easeInOut
+     });
+
+     TweenMax.from(".content", 2, {
+          delay: 3.2,
+          opacity: 0,
+          ease: Power2.easeInOut
+     });
+
+     TweenMax.to(".content", 2, {
+          opacity: 1,
+          y: -300,
+          delay: 3.2,
+          ease: Power2.easeInOut
+     });
+
+     }
+
+    </script>
+
+</body>
+</html>

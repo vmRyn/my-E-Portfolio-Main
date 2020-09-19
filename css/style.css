@@ -7,7 +7,7 @@ html, body {
 
 body {
      cursor: crosshair;
-     font-family: Poppins;
+     font-family: sans-serif;
      background-color: #101010;
      background-size: cover;
      background-attachment: fixed;
@@ -41,7 +41,7 @@ a {
 }
 
 .content h1 {
-     font-family: Poppins;
+     font-family: sans-serif;
      font-size: 54px;
      color: #101010;
      font-weight: 700;
@@ -80,7 +80,7 @@ a {
 
 .screen {
      color: white;
-     font-family: Poppins;
+     font-family: sans-serif;
      position: absolute;
      top: -5%;
      left: 50%;
@@ -89,7 +89,7 @@ a {
 
 .screen2 {
      color: white;
-     font-family: Poppins;
+     font-family: sans-serif;
      position: absolute;
      top: 48%;
      left: 50%;
@@ -120,10 +120,18 @@ a {
      transform: translate(-50%, -50%);
 }
 
+.ShowmyBtn {
+     font-family: Poppins;
+     position: absolute;
+     top: 90%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
 button {
      display: block;
      padding: 24px 48px;
-     font-family: Poppins;
+     font-family: sans-serif;
      font-weight: 700;
      font-size: 12px;
      letter-spacing: 6px;
@@ -147,6 +155,10 @@ button {
 }
 
 .myBtn3:hover {
+     cursor: grab;
+}
+
+.ShowmyBtn:hover {
      cursor: grab;
 }
 
@@ -223,25 +235,167 @@ button {
 #informationbox {
      align-content: center;
      width: 1000px;
-     height: 555px;
+     height: 540px;
      padding: 30px;
      color: white;
      border-radius: 1em;
      padding: 1em;
+     box-shadow: 0 0 2em -1em white;
      transition: all, var(--transition-time);
      border: 5px solid white;
      text-decoration: none;
      animation: text 3s 1;
-     background-image: url(../images/Opacity.png);
+     animation: ease 3s 1;
+     --bg-filter-opacity: 0.5;
+     background-image: linear-gradient(rgba(46,46,46,var(--bg-filter-opacity)),rgba(46,46,46,var(--bg-filter-opacity))), var(--bg-img);
 }
+
+#informationbox:hover {
+     box-shadow: 0 0 2em -1em transparent;
+}
+
+#educationbox {
+     font-family: sans-serif;
+     width: 1000px;
+     height: 270px;
+     padding: 30px;
+     color: white;
+     border-radius: 1em;
+     padding: 1em;
+     box-shadow: 0 0 2em -1em white;
+     transition: all, var(--transition-time);
+     border: 5px solid white;
+     text-decoration: none;
+     animation: text 3s 1;
+     animation: ease 3s 1;
+     --bg-filter-opacity: 0.5;
+     background-image: linear-gradient(rgba(46,46,46,var(--bg-filter-opacity)),rgba(46,46,46,var(--bg-filter-opacity))), var(--bg-img);
+}
+
+#educationbox:hover {
+     box-shadow: 0 0 2em -1em transparent;
+}
+
+:root {
+     --color: black;
+     --transition-time: 1s;
+ }
+ 
+ * {
+     box-sizing: border-box;
+ }
+ 
+ .cards-wrapper {
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-gap: 4rem;
+     padding: 4rem;
+     margin: 0 auto;
+     animation: text 3s 1;
+     animation: ease 3s 1;
+ }
+ 
+ .card {
+     font-family: sans-serif;
+     --bg-filter-opacity: 0.5;
+     background-image: linear-gradient(rgba(46,46,46,var(--bg-filter-opacity)),rgba(46,46,46,var(--bg-filter-opacity))), var(--bg-img);
+     height: 14.6em;
+     width: 14.6em;
+     font-size: 1.25em;
+     color: white;
+     border: 5px solid white;
+     border-radius: 1em;
+     padding: 1em;
+     display: flex;
+     align-items: flex-end;
+     background-size: cover;
+     background-position: center;
+     box-shadow: 0 0 2em -1em white;
+     transition: all, var(--transition-time);
+     position: relative;
+     overflow: hidden;
+     text-decoration: none;
+ }
+ 
+     .card:hover {
+         transform: rotate(0);
+         box-shadow: 0 0 2em -1em transparent;
+     }
+ 
+     .card h1 {
+         margin: 0;
+         font-size: 1.5em;
+         line-height: 1.2em;
+     }
+ 
+     .card p {
+         font-size: 0.75em;
+         font-family: sans-serif;
+         margin-top: 0.5em;
+         line-height: 2em;
+     }
+ 
+     .card .tags {
+         display: flex;
+     }
+ 
+ .card .tags .tag {
+      font-size: 0.75em;
+      background: rgba(255,255,255,0.5);
+      border-radius: 0.3rem;
+      padding: 0 0.5em;
+      margin-right: 0.5em;
+      line-height: 1.5em;
+      transition: all, var(--transition-time);
+ }
+ 
+ .card:hover .tags .tag {
+     background: #4f4f4f;
+     color: white;
+ }
+ 
+ .card:before, .card:after {
+     content: '';
+     transform: scale(0);
+     transform-origin: top left;
+     border-radius: 50%;
+     position: absolute;
+     left: -50%;
+     top: -50%;
+     z-index: -5;
+     transition: all, var(--transition-time);
+     transition-timing-function: ease-in-out;
+ }
+ 
+ .card-grid-space .num {
+     font-size: 3em;
+     margin-bottom: 1.2rem;
+     margin-left: 1rem;
+ }
+ 
 
 h1 {
      color: white;
      text-align: center;
+     animation: text 3s 1;
+     transition-duration: 0.4s;
+}
+
+h1:hover {
+     color: #4f4f4f;
 }
 
 img {
      border: 5px solid white;
      border-radius: 1em;
+     animation: text 3s 1;
+     animation: ease 3s 1;
+     box-shadow: 0 0 2em -1em white;
+}
+
+img:hover {
+     box-shadow: 0 0 2em -1em transparent;
 }
 

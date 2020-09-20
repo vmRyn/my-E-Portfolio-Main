@@ -354,7 +354,7 @@ button {
 #smallinfobox {
      align-content: center;
      width: 500px;
-     height: 235px;
+     height: 260px;
      padding: 30px;
      color: white;
      border-radius: 1em;
@@ -590,7 +590,6 @@ button {
 h1 {
      color: white;
      text-align: center;
-     animation: text 3s 1;
      transition-duration: 0.4s;
      text-shadow: 1px 1px 5px #0097ff;
      animation: text 3s 1;
@@ -622,6 +621,26 @@ img {
 
 img:hover {
      box-shadow: 0 0 2em -1em transparent;
+}
+
+.footer {
+     font-family: Poppins;
+     width: 100%;
+     background-color: #4f4f4f;
+     color: white;
+     text-shadow: 1px 1px 5px #0097ff;
+     text-align: center;
+     position: relative;
+     transition-duration: 0.4s;
+     animation: text 3s 1;
+     animation: ease 3s 1;
+     animation: fadeIn ease 3s;
+     -webkit-animation: fadeIn ease 3s;
+}
+
+.footer p:hover {
+     color: #0097ff;
+     text-shadow: 1px 1px 5px white;
 }
 
 @keyframes fadeIn {

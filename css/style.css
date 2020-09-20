@@ -170,6 +170,14 @@ a {
      -webkit-animation: fadeIn ease 10s;
 }
 
+
+.LinkmyBtn {
+     font-family: Poppins;
+     position: absolute;
+     animation: fadeIn ease 2s;
+     -webkit-animation: fadeIn ease 2s;
+}
+
 button {
      display: block;
      padding: 24px 48px;
@@ -201,6 +209,10 @@ button {
 }
 
 .ShowmyBtn:hover {
+     cursor: grab;
+}
+
+.LinkmyBtn:hover {
      cursor: grab;
 }
 
@@ -256,6 +268,19 @@ button {
      transition: top 0.8s ease-out;
 }
 
+.LinkmyBtn:before {
+     content: "";
+     position: absolute;
+     background: #16537e;
+     border: 4px solid #101010;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     top: 100%;
+     z-index: -1;
+     transition: top 0.8s ease-out;
+}
+
 .myBtn:hover:before {
      top: 0;
 }
@@ -272,24 +297,34 @@ button {
      top: 0;
 }
 
+.LinkmyBtn:hover:before {
+     top: 0;
+}
+
 
 ::-webkit-scrollbar {
-     width: 20px;
+     width: 15x;
+     animation: text 3s 1;
+     animation: ease 3s 1;
+}
+
+::-webkit-scrollbar:hover {
+     animation: text 3s 1;
+     animation: ease 3s 1;
 }
    
 ::-webkit-scrollbar-track {
      box-shadow: inset 0 0 5px grey; 
-     animation: ease 3s 1;
 }
     
 ::-webkit-scrollbar-thumb {
      background: grey; 
+     animation: text 3s 1;
      animation: ease 3s 1;
 }
    
 ::-webkit-scrollbar-thumb:hover {
-     background: rgb(83, 83, 83); 
-     animation: ease 3s 1;
+     background: #0097ff; 
 }
 
 #informationbox {
@@ -313,6 +348,30 @@ button {
 }
 
 #informationbox:hover {
+     box-shadow: 0 0 2em -1em transparent;
+}
+
+#smallinfobox {
+     align-content: center;
+     width: 500px;
+     height: 235px;
+     padding: 30px;
+     color: white;
+     border-radius: 1em;
+     padding: 1em;
+     box-shadow: 0 0 2em -1em white;
+     transition: all, var(--transition-time);
+     border: 5px solid #0097ff;
+     text-decoration: none;
+     animation: text 3s 1;
+     animation: ease 3s 1;
+     --bg-filter-opacity: 0.5;
+     background-image: url(../images/Opacity.png);
+     animation: fadeIn ease 3s;
+     -webkit-animation: fadeIn ease 3s;
+}
+
+#smallinfobox:hover {
      box-shadow: 0 0 2em -1em transparent;
 }
 
@@ -479,6 +538,7 @@ button {
          margin: 0;
          font-size: 1.5em;
          line-height: 1.2em;
+         text-align: center;
      }
  
      .card p {

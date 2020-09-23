@@ -170,12 +170,24 @@ a {
      -webkit-animation: fadeIn ease 10s;
 }
 
-
-.LinkmyBtn {
+.ContactBtn {
      font-family: Poppins;
      position: absolute;
+     left: 50%;
+     transform: translate(-50%, -50%);
      animation: fadeIn ease 2s;
      -webkit-animation: fadeIn ease 2s;
+}
+
+.ContactBtn2 {
+     font-family: Poppins;
+     position: absolute;
+     top: 70%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     animation: fadeIn ease 2s;
+     -webkit-animation: fadeIn ease 2s;
+     width: 500px;
 }
 
 button {
@@ -212,7 +224,11 @@ button {
      cursor: grab;
 }
 
-.LinkmyBtn:hover {
+.ContactBtn:hover {
+     cursor: grab;
+}
+
+.ContactBtn2:hover {
      cursor: grab;
 }
 
@@ -268,7 +284,20 @@ button {
      transition: top 0.8s ease-out;
 }
 
-.LinkmyBtn:before {
+.ContactBtn:before {
+     content: "";
+     position: absolute;
+     background: #16537e;
+     border: 4px solid #101010;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     top: 100%;
+     z-index: -1;
+     transition: top 0.8s ease-out;
+}
+
+.ContactBtn2:before {
      content: "";
      position: absolute;
      background: #16537e;
@@ -297,7 +326,11 @@ button {
      top: 0;
 }
 
-.LinkmyBtn:hover:before {
+.ContactBtn:hover:before {
+     top: 0;
+}
+
+.ContactBtn2:hover:before {
      top: 0;
 }
 
@@ -621,6 +654,9 @@ img {
 
 img:hover {
      box-shadow: 0 0 2em -1em transparent;
+     animation: text 3s 1;
+     animation: ease 3s 1;
+     -webkit-animation: fadeIn ease 3s;
 }
 
 .footer {

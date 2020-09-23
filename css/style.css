@@ -369,7 +369,7 @@ button {
 
 
 ::-webkit-scrollbar {
-     width: 15x;
+     width: 20px;
      animation: text 3s 1;
      animation: ease 3s 1;
 }

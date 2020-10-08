@@ -167,8 +167,8 @@ a {
      top: 95%;
      left: 50%;
      transform: translate(-50%, -50%);
-     animation: fadeIn ease 10s;
-     -webkit-animation: fadeIn ease 10s;
+     animation: fadeIn ease 2;
+     -webkit-animation: fadeIn ease 2;
 }
 
 .ContactBtn {

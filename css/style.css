@@ -689,6 +689,7 @@ img:hover {
      box-shadow: 0 0 2em -1em transparent;
      animation: text 3s 1;
      animation: ease 3s 1;
+     animation: fadeOut ease 3s;
      -webkit-animation: fadeIn ease 3s;
 }
 

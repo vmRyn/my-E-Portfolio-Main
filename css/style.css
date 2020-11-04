@@ -23,7 +23,7 @@ body {
 .main {
      max-width: 1000px;
      margin: auto;
- }
+}
 
 a {
      color: white;
@@ -370,8 +370,6 @@ button:hover {
      top: 0;
 }
 
-
-
 ::-webkit-scrollbar {
      width: 20px;
      animation: text 3s 1;
@@ -382,19 +380,19 @@ button:hover {
      animation: text 3s 1;
      animation: ease 3s 1;
 }
-   
+
 ::-webkit-scrollbar-track {
-     box-shadow: inset 0 0 5px grey; 
+     box-shadow: inset 0 0 5px grey;
 }
-    
+
 ::-webkit-scrollbar-thumb {
-     background: grey; 
+     background: grey;
      animation: text 3s 1;
      animation: ease 3s 1;
 }
-   
+
 ::-webkit-scrollbar-thumb:hover {
-     background: #0097ff; 
+     background: #0097ff;
 }
 
 #informationbox {
@@ -500,10 +498,10 @@ button:hover {
      font-size: 15px;
      color: #FFF;
      font-weight: bold;
-     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
- }
- 
- .bar::before {
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.bar::before {
      content: attr(data-skill);
      background-color: #f3b0ff;
      display: inline-block;
@@ -513,58 +511,66 @@ button:hover {
      -webkit-animation: load 2s 0s;
      -moz-animation: load 2s 0s;
      -o-animation: load 2s 0s;
- }
- 
-     /*Visual Basic Bar Colour*/
-     .bar.vbbar::before {
-         background-color: red;
-     }
- 
-     /*JavaScript Bar Colour*/
-     .bar.jbar::before {
-         background-color: orangered;
-     }
- 
-     /*C++ C# + JavaScript Bar Colour*/
-     .bar.cbar::before {
-         background-color: orange;
-     }
- 
-     /*HTML Bar Colour*/
-     .bar.htmlbar::before {
-         background-color: green;
-     }
- 
-     /*Know But Don't Use 60%*/
-     .bar.fifthy::before {
-         width: calc(50% - 10px);
-     }
- 
-     /*Understand to Extent 80%*/
-     .bar.sixty::before {
-         width: calc(60% - 10px);
-     }
- 
-     /*Understand to Extent 80%*/
-     .bar.eighty::before {
-         width: calc(80% - 10px);
-     }
- 
-     /*Best Skill 100%*/
-     .bar.expert::before {
-         width: calc(100% - 10px);
-     }
+}
+
+/*Visual Basic Bar Colour*/
+
+.bar.vbbar::before {
+     background-color: red;
+}
+
+/*JavaScript Bar Colour*/
+
+.bar.jbar::before {
+     background-color: orangered;
+}
+
+/*C++ C# + JavaScript Bar Colour*/
+
+.bar.cbar::before {
+     background-color: orange;
+}
+
+/*HTML Bar Colour*/
+
+.bar.htmlbar::before {
+     background-color: green;
+}
+
+/*Know But Don't Use 60%*/
+
+.bar.fifthy::before {
+     width: calc(50% - 10px);
+}
+
+/*Understand to Extent 80%*/
+
+.bar.sixty::before {
+     width: calc(60% - 10px);
+}
+
+/*Understand to Extent 80%*/
+
+.bar.eighty::before {
+     width: calc(80% - 10px);
+}
+
+/*Best Skill 100%*/
+
+.bar.expert::before {
+     width: calc(100% - 10px);
+}
 
 :root {
      --color: black;
      --transition-time: 1s;
- }
- 
- * {
+}
+
+* {
      box-sizing: border-box;
- }
- 
- .cards-wrapper {
+}
+
+.cards-wrapper {
      display: grid;
      justify-content: center;
      align-items: center;
@@ -574,12 +580,12 @@ button:hover {
      margin: 0 auto;
      animation: text 3s 1;
      animation: ease 3s 1;
- }
- 
- .card {
+}
+
+.card {
      font-family: sans-serif;
      --bg-filter-opacity: 0.5;
-     background-image: linear-gradient(rgba(46,46,46,var(--bg-filter-opacity)),rgba(46,46,46,var(--bg-filter-opacity))), var(--bg-img);
+     background-image: linear-gradient(rgba(46, 46, 46, var(--bg-filter-opacity)), rgba(46, 46, 46, var(--bg-filter-opacity))), var(--bg-img);
      height: 14.6em;
      width: 14.6em;
      font-size: 1.25em;
@@ -596,47 +602,47 @@ button:hover {
      position: relative;
      overflow: hidden;
      text-decoration: none;
- }
- 
-     .card:hover {
-         transform: rotate(0);
-         box-shadow: 0 0 2em -1em transparent;
-     }
- 
-     .card h1 {
-         margin: 0;
-         font-size: 1.5em;
-         line-height: 1.2em;
-         text-align: center;
-     }
- 
-     .card p {
-         font-size: 0.75em;
-         font-family: sans-serif;
-         margin-top: 0.5em;
-         line-height: 2em;
-     }
- 
-     .card .tags {
-         display: flex;
-     }
- 
- .card .tags .tag {
-      font-size: 0.75em;
-      background: rgba(255,255,255,0.5);
-      border-radius: 0.3rem;
-      padding: 0 0.5em;
-      margin-right: 0.5em;
-      line-height: 1.5em;
-      transition: all, var(--transition-time);
- }
- 
- .card:hover .tags .tag {
+}
+
+.card:hover {
+     transform: rotate(0);
+     box-shadow: 0 0 2em -1em transparent;
+}
+
+.card h1 {
+     margin: 0;
+     font-size: 1.5em;
+     line-height: 1.2em;
+     text-align: center;
+}
+
+.card p {
+     font-size: 0.75em;
+     font-family: sans-serif;
+     margin-top: 0.5em;
+     line-height: 2em;
+}
+
+.card .tags {
+     display: flex;
+}
+
+.card .tags .tag {
+     font-size: 0.75em;
+     background: rgba(255, 255, 255, 0.5);
+     border-radius: 0.3rem;
+     padding: 0 0.5em;
+     margin-right: 0.5em;
+     line-height: 1.5em;
+     transition: all, var(--transition-time);
+}
+
+.card:hover .tags .tag {
      background: #4f4f4f;
      color: white;
- }
- 
- .card:before, .card:after {
+}
+
+.card:before, .card:after {
      content: '';
      transform: scale(0);
      transform-origin: top left;
@@ -647,14 +653,17 @@ button:hover {
      z-index: -5;
      transition: all, var(--transition-time);
      transition-timing-function: ease-in-out;
- }
- 
- .card-grid-space .num {
+}
+
+.card-grid-space .num {
      font-size: 3em;
      margin-bottom: 1.2rem;
      margin-left: 1rem;
- }
- 
+}
+
+/***************************
+     HEADER CSS
+***************************/
 
 h1 {
      color: white;
@@ -667,16 +676,23 @@ h1 {
      -webkit-animation: fadeIn ease 3s;
 }
 
-
 h1:hover {
      color: #0097ff;
      text-shadow: 1px 1px 2px white;
+}
+
+h2 {
+     color: #0097ff;
 }
 
 hr {
      animation: fadeIn ease 3s;
      -webkit-animation: fadeIn ease 3s;
 }
+
+/***************************
+     IMAGE CSS
+***************************/
 
 img {
      border: 5px solid #0097ff;
@@ -695,6 +711,10 @@ img:hover {
      animation: fadeOut ease 3s;
      -webkit-animation: fadeIn ease 3s;
 }
+
+/***************************
+     FOOTER CSS
+***************************/
 
 .footer {
      font-family: Poppins;
@@ -717,44 +737,55 @@ img:hover {
 }
 
 @keyframes fadeIn {
-     0% {opacity:0;}
-     100% {opacity:1;}
-   }
-   
-   @-moz-keyframes fadeIn {
-     0% {opacity:0;}
-     100% {opacity:1;}
-   }
-   
-   @-webkit-keyframes fadeIn {
-     0% {opacity:0;}
-     100% {opacity:1;}
-   }
-   
-   @-o-keyframes fadeIn {
-     0% {opacity:0;}
-     100% {opacity:1;}
-   }
-   
-   @-ms-keyframes fadeIn {
-     0% {opacity:0;}
-     100% {opacity:1;}
-   }
+     0% {
+          opacity: 0;
+     }
+     100% {
+          opacity: 1;
+     }
+}
 
-   h2 {
-        color: #0097ff;
-   }
+@-moz-keyframes fadeIn {
+     0% {
+          opacity: 0;
+     }
+     100% {
+          opacity: 1;
+     }
+}
 
-   * {
-     box-sizing: border-box;
-   }
-   
-   body {
-     font-family: Arial, Helvetica, sans-serif;
-   }
-   
-   /* Float four columns side by side */
-   .column {
+@-webkit-keyframes fadeIn {
+     0% {
+          opacity: 0;
+     }
+     100% {
+          opacity: 1;
+     }
+}
+
+@-o-keyframes fadeIn {
+     0% {
+          opacity: 0;
+     }
+     100% {
+          opacity: 1;
+     }
+}
+
+@-ms-keyframes fadeIn {
+     0% {
+          opacity: 0;
+     }
+     100% {
+          opacity: 1;
+     }
+}
+
+/***************************
+     WORK CSS
+***************************/
+
+.column {
      float: left;
      width: 50%;
      padding: 0 10px;
@@ -767,28 +798,104 @@ img:hover {
      animation: text 3s 1;
      animation: ease 3s 1;
      animation: fadeIn ease 3s;
-     -webkit-animation: fadeIn ease 3s; 
+     -webkit-animation: fadeIn ease 3s;
      height: 250px;
-   }
+}
 
-   .column:hover {
-     box-shadow: 0 0 2em -1em transparent; 
-   }
-   
-   /* Remove extra left and right margins, due to padding in columns */
-   .row {margin: 0 -5px;}
-   
-   /* Clear floats after the columns */
-   .row:after {
+.column:hover {
+     box-shadow: 0 0 2em -1em transparent;
+}
+
+.row {
+     margin: 0 -5px;
+}
+
+.row:after {
      content: "";
      display: table;
      clear: both;
-   }
-   
-   /* Style the counter cards */
-   .box {
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+}
+
+.box {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
      padding: 16px;
      text-align: center;
-   }
+}
 
+/***************************
+     Contact Box CSS
+***************************/
+
+input[type=text], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+}
+
+input[type=submit] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     cursor: pointer;
+}
+
+input[type=submit]:hover {
+     background-color: #45a049;
+}
+
+.contactcontainer {
+     font-family: sans-serif;
+     width: 800px;
+     height: 640px;
+     border: 5px solid #0097ff;
+     background-image: url(../images/Opacity.png);
+     padding: 30px;
+     color: white;
+     border-radius: 1em;
+     padding: 1em;
+     box-shadow: 0 0 2em -1em white;
+     transition: all, var(--transition-time);
+     text-decoration: none;
+     animation: text 3s 1;
+     background-color: black;
+     transition-duration: 0.4s;
+     transition: top 0.8s ease-out;
+     animation: fadeIn ease 3s;
+     -webkit-animation: fadeIn ease 3s;
+     animation: text 3s 1;
+     animation: ease 3s 1;
+}
+
+.contactcontainer:hover {
+     box-shadow: 0 0 2em -1em transparent;
+}
+
+.column2 {
+     float: left;
+     width: 50%;
+     margin-top: 6px;
+     padding: 20px;
+}
+
+.row:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+
+@media screen and (max-width: 600px) {
+     .column2, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+     }
+}
+
+textarea {
+     height: 250px;
+     max-height: 250px;
+     min-height: 250px;
+}

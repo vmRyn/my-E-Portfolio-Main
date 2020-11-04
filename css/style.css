@@ -134,7 +134,7 @@ a {
 .myBtn {
      font-family: Poppins;
      position: absolute;
-     top: 40%;
+     top: 44%;
      left: 50%;
      transform: translate(-50%, -50%);
      animation: fadeIn ease 2s;
@@ -144,7 +144,7 @@ a {
 .myBtn2 {
      font-family: Poppins;
      position: absolute;
-     top: 50%;
+     top: 54%;
      left: 50%;
      transform: translate(-50%, -50%);
      animation: fadeIn ease 2s;

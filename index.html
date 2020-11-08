@@ -15,13 +15,6 @@
 </head>
 <body>
 
-    <ul class="nav">
-        <li><a href="#AboutMe">ABOUT ME</a></li>
-        <li><a href="#Skills">SKILLS</a></li>
-        <li><a href="#Work">WORK</a></li>
-        <li><a href="#ContactMe">CONTACT</a></li>
-      </ul>
-
     <div class="container">
 
         <div class="overlay">
@@ -41,13 +34,26 @@
         <div class="main">
 
         <div id="ShowButtonLast" style="display:none;">
-          <button class="ShowmyBtn" onclick="ShowAndHide() ;fadeIn()">REVEAL WEBSITE</button>
+          <button class="ShowmyBtn" onclick="ShowAndHide() ;fadeIn() ;HideNav()">REVEAL WEBSITE</button>
         </div>
+
+        <div id="HideNavBar" style="display:none;">
+        <div class="header">
+            <a href="index.html" class="logo">Ryan Dempsey</a>
+            <div class="header-right">
+                <a href="#AboutMe">About</a>
+                <a href="#Skills">Skills</a>
+                <a href="#Work">Projects</a>
+                <a href="#ContactMe">Contact</a>
+            </div>
+        </div>
+    </div>
 
         <pre class="tab">               </pre>
 
              <div id="RynShowMe" style="display:none">
                 <section id="AboutMe">
+                <pre class="tab">               </pre>
                 <pre class="tab">               </pre>
                 <pre class="tab">               </pre>                
           <h1 class="aboutme">ABOUT ME</h1>
@@ -106,8 +112,9 @@
         </section>
 
         <section id="Skills">
-           <pre class="tab">               </pre>
-           <pre class="tab">               </pre>
+            <pre class="tab">               </pre>
+            <pre class="tab">               </pre>
+            <pre class="tab">               </pre>    
 
 
           <h1 class="Titles">MY SKILLS</h1>
@@ -189,8 +196,9 @@
     <section id="Work">
         <pre class="tab">               </pre>
         <pre class="tab">               </pre>
+        <pre class="tab">               </pre>    
 
-        <h1 class="Titles">CURRENT & PREVIOUS WORK</h1>
+        <h1 class="Titles">PROJECTS</h1>
         <hr>
 
         <pre class="tab">               </pre>
@@ -238,7 +246,8 @@
           
         </section>
         <pre class="tab">               </pre>
-        <pre class="tab">               </pre>  
+        <pre class="tab">               </pre>
+        <pre class="tab">               </pre>    
 
         <section id="ContactMe">
         <h1 class="Titles">CONTACT ME</h1>
@@ -375,6 +384,19 @@
 
     function ShowAndHide2() {
         var x = document.getElementById('ShowButtonLast');
+        if (x.style.display == 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+
+    </script>
+
+<script>
+
+    function HideNav() {
+        var x = document.getElementById('HideNavBar');
         if (x.style.display == 'none') {
             x.style.display = 'block';
         } else {

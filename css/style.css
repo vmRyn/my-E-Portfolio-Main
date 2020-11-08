@@ -760,10 +760,10 @@ button:hover {
 ***************************/
 
 h1 {
-     color: white;
+     color: #0097ff;
      text-align: center;
      transition-duration: 0.4s;
-     text-shadow: 1px 1px 5px #0097ff;
+     text-shadow: 1px 1px 5px black;
      animation: text 3s 1;
      animation: ease 3s 1;
      animation: fadeIn ease 3s;

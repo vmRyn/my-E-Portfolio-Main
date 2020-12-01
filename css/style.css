@@ -46,45 +46,6 @@ a {
     width: device-width;
 }
 
-@media screen and (max-width:320px) {
-    /* CSS for screens that are 320 pixels or less will be put in this section */
-}
-
-@media screen and (min-width:320px) and (max-width:640px) {
-    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
-}
-
-
-/* code that is here, until the first @media block, will apply to any screen size */
-
-#somethingorother {
-    width: 800px;
-}
-
-@media screen and (max-width: 320px) {
-    /* comes into effect for screens less than or equal to 320 pixels */
-    #somethingorother {
-        width: 120px;
-    }
-}
-
-@media screen and (min-width: 321px) and (max-width: 480px) {
-    /* comes into effect for screens between 321 and 480 pixels (inclusive) */
-    #somethingorother {
-        width: 320px;
-    }
-}
-
-@media screen and (min-width: 481px) {
-    /* comes into effect for screens larger than or equal to 481 pixels */
-    #somethingorother {
-        width: 480px;
-    }
-}
-
-
-/* code that is here will apply to any screen size */
-
 
 /***************************
     BODY END
@@ -887,7 +848,6 @@ img:hover {
 .footer {
     font-family: Poppins;
     width: 100%;
-    background-color: #4f4f4f;
     color: white;
     text-shadow: 1px 1px 5px #0097ff;
     text-align: center;
@@ -897,6 +857,10 @@ img:hover {
     animation: ease 3s 1;
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
+    background-color: #101010;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2.5px solid #0097ff;
 }
 
 .footer p:hover {

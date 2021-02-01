@@ -921,8 +921,8 @@ img:hover {
 .column {
     float: left;
     width: 50%;
-    padding: 0 10px;
-    border: 2.5px solid #0097ff;
+    padding: 0 0.532197977647685vw;
+    border: 0.13304949441192124vw solid #0097ff;
     background-image: url(../images/Opacity.png);
     color: white;
     box-shadow: 0 0 2em -1em white;
@@ -931,7 +931,7 @@ img:hover {
     animation: ease 3s 1;
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
-    height: 250px;
+    height: 13.304949441192123vw;
 }
 
 .column:hover {
@@ -939,7 +939,7 @@ img:hover {
 }
 
 .row {
-    margin: 0 -5px;
+    margin: 0 -0.2660989888238425vw;
 }
 
 .row:after {
@@ -949,8 +949,8 @@ img:hover {
 }
 
 .box {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    box-shadow: 0 0.21287919105907396vw 0.4257583821181479vw 0 rgba(0, 0, 0, 0.2);
+    padding: 0.08515167642362959vw;
     text-align: center;
 }
 
@@ -968,17 +968,17 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    padding: 0.6386375731772219vw;
+    border: 0.05321979776476849vw solid #ccc;
+    margin-top: 0.31931878658861096vw;
+    margin-bottom: 0.8515167642362959vw;
     resize: vertical;
 }
 
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
-    padding: 12px 20px;
+    padding: 0.6386375731772219vw 1.06439595529537vw;
     border: none;
     cursor: pointer;
 }
@@ -989,11 +989,11 @@ input[type=submit]:hover {
 
 .contactcontainer {
     font-family: sans-serif;
-    width: 800px;
-    height: 640px;
-    border: 2.5px solid #0097ff;
+    width: 42.5758382118148vw;
+    height: 34.06067056945184vw;
+    border: 0.13304949441192124vw solid #0097ff;
     background-image: url(../images/Opacity.png);
-    padding: 30px;
+    padding: 1.5965939329430547vw;
     color: white;
     border-radius: 1em;
     padding: 1em;
@@ -1016,8 +1016,8 @@ input[type=submit]:hover {
 .column2 {
     float: left;
     width: 50%;
-    margin-top: 6px;
-    padding: 20px;
+    margin-top: 0.31931878658861096vw;
+    padding: 1.06439595529537vw;
 }
 
 .row:after {
@@ -1026,7 +1026,7 @@ input[type=submit]:hover {
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 31.931878658861095vw) {
     .column2,
     input[type=submit] {
         width: 100%;
@@ -1035,9 +1035,9 @@ input[type=submit]:hover {
 }
 
 textarea {
-    height: 250px;
-    max-height: 250px;
-    min-height: 250px;
+    height: 13.304949441192123vw;
+    max-height: 13.304949441192123vw;
+    min-height: 13.304949441192123vw;
 }
 
 

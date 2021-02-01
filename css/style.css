@@ -479,7 +479,7 @@ button:hover {
 ***************************/
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width:  0.7982969664715274vw;
     animation: text 3s 1;
     animation: ease 3s 1;
 }
@@ -490,7 +490,7 @@ button:hover {
 }
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0  0.2660989888238425vw grey;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -515,15 +515,15 @@ button:hover {
 
 #informationbox {
     align-content: center;
-    width: 1000px;
-    height: 470px;
-    padding: 30px;
+    width: 53.219797764768494vw;
+    height: 25.013304949441192vw;
+    padding: 1.5965939329430547vw;
     color: white;
     border-radius: 1em;
     padding: 1em;
     box-shadow: 0 0 2em -1em white;
     transition: all, var(--transition-time);
-    border: 2.5px solid #0097ff;
+    border: 0.13304949441192124vw solid #0097ff;
     text-decoration: none;
     animation: text 3s 1;
     animation: ease 3s 1;
@@ -539,14 +539,14 @@ button:hover {
 
 #smallinfobox {
     align-content: center;
-    width: 600px;
+    width: 31.931878658861095vw;
     height: 14.6em;
     color: white;
     border-radius: 1em;
     padding: 1em;
     box-shadow: 0 0 2em -1em white;
     transition: all, var(--transition-time);
-    border: 2.5px solid #0097ff;
+    border: 0.13304949441192124vw solid #0097ff;
     text-decoration: none;
     animation: text 3s 1;
     animation: ease 3s 1;
@@ -562,15 +562,15 @@ button:hover {
 
 #educationbox {
     font-family: sans-serif;
-    width: 1000px;
-    height: 320px;
-    padding: 30px;
+    width: 53.219797764768494vw;
+    height: 17.03033528472592vw;
+    padding: 15.965939329430547vw;
     color: white;
     border-radius: 1em;
     padding: 1em;
     box-shadow: 0 0 2em -1em white;
     transition: all, var(--transition-time);
-    border: 2.5px solid #0097ff;
+    border: 0.13304949441192124vw solid #0097ff;
     text-decoration: none;
     animation: text 3s 1;
     animation: ease 3s 1;
@@ -586,15 +586,15 @@ button:hover {
 
 #skillbarbox {
     font-family: sans-serif;
-    width: 1000px;
-    height: 315px;
-    padding: 30px;
+    width: 53.219797764768494vw;
+    height: 16.764236295902077vw;
+    padding: 1.5965939329430547vw;
     color: white;
     border-radius: 1em;
     padding: 1em;
     box-shadow: 0 0 2em -1em white;
     transition: all, var(--transition-time);
-    border: 2.5px solid #0097ff;
+    border:  0.13304949441192124vw solid #0097ff;
     text-decoration: none;
     animation: text 3s 1;
     animation: ease 3s 1;
@@ -610,20 +610,20 @@ button:hover {
 
 .bar {
     background-color: black;
-    padding: 5px;
-    border-radius: 20px;
-    margin-bottom: 5px;
-    font-size: 15px;
+    padding: 0.2660989888238425vw;
+    border-radius: 1.06439595529537vw;
+    margin-bottom: 0.2660989888238425vw;
+    font-size:  0.7982969664715274vw;
     color: #FFF;
     font-weight: bold;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.05321979776476849vw 0.05321979776476849vw 0.05321979776476849vw rgba(0, 0, 0, 0.5);
 }
 
 .bar::before {
     content: attr(data-skill);
     background-color: #f3b0ff;
     display: inline-block;
-    padding: 5px 0 5px 10px;
+    padding: 0.2660989888238425vw 0 0.2660989888238425vw 0.532197977647685vw;
     border-radius: inherit;
     animation: load 2s 0s;
     -webkit-animation: load 2s 0s;
@@ -663,28 +663,28 @@ button:hover {
 /*Know But Don't Use 60%*/
 
 .bar.fifthy::before {
-    width: calc(50% - 10px);
+    width: calc(50% - 0.532197977647685vw);
 }
 
 
 /*Understand to Extent 80%*/
 
 .bar.sixty::before {
-    width: calc(60% - 10px);
+    width: calc(60% - 0.532197977647685vw);
 }
 
 
 /*Understand to Extent 80%*/
 
 .bar.eighty::before {
-    width: calc(80% - 10px);
+    width: calc(80% - 0.532197977647685vw);
 }
 
 
 /*Best Skill 100%*/
 
 .bar.expert::before {
-    width: calc(100% - 10px);
+    width: calc(100% - 0.532197977647685vw);
 }
 
 :root {
@@ -716,7 +716,7 @@ button:hover {
     width: 14.6em;
     font-size: 1.25em;
     color: white;
-    border: 2.5px solid #0097ff;
+    border: 0.13304949441192124vw solid #0097ff;
     border-radius: 1em;
     padding: 1em;
     display: flex;
@@ -802,7 +802,7 @@ h1 {
     color: #0097ff;
     text-align: center;
     transition-duration: 0.4s;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 0.05321979776476849vw 0.05321979776476849vw 0.2660989888238425vw black;
     animation: text 3s 1;
     animation: ease 3s 1;
     animation: fadeIn ease 3s;
@@ -811,7 +811,7 @@ h1 {
 
 h1:hover {
     color: #0097ff;
-    text-shadow: 1px 1px 2px white;
+    text-shadow: 0.05321979776476849vw 0.05321979776476849vw 0.10643959552953698vw white;
 }
 
 h2 {
@@ -829,7 +829,7 @@ hr {
 ***************************/
 
 img {
-    border: 2.5px solid #0097ff;
+    border: 0.13304949441192124vw solid #0097ff;
     border-radius: 1em;
 }
 
@@ -849,7 +849,7 @@ img:hover {
     font-family: Poppins;
     width: 100%;
     color: white;
-    text-shadow: 1px 1px 5px #0097ff;
+    text-shadow: 0.05321979776476849vw 0.05321979776476849vw 0.2660989888238425vw #0097ff;
     text-align: center;
     position: relative;
     transition-duration: 0.4s;
@@ -858,14 +858,14 @@ img:hover {
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
     background-color: #101010;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: 2.5px solid #0097ff;
+    padding: 0.2660989888238425vw 0.532197977647685vw;
+    border-radius: 0.2660989888238425vw;
+    border: 0.13304949441192124vw solid #0097ff;
 }
 
 .footer p:hover {
     color: #0097ff;
-    text-shadow: 1px 1px 5px white;
+    text-shadow: 0.05321979776476849vw 0.05321979776476849vw 0.2660989888238425vw white;
 }
 
 @keyframes fadeIn {

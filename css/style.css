@@ -27,7 +27,7 @@ body {
 }
 
 .main {
-    max-width: 1000px;
+    max-width: 52vw;
     margin: auto;
 }
 
@@ -59,28 +59,28 @@ a {
 .header {
     overflow: hidden;
     background-color: #101010;
-    padding: 5px 10px;
+    padding: 0.26vw 0.53vw;
     font-family: Poppins;
-    border-radius: 5px;
+    border-radius: 0.26vw;
     position: fixed;
     width: 53.7%;
     z-index: 9999;
-    border: 2.5px solid #0097ff;
+    border: 0.13304949441192124vw solid #0097ff;
 }
 
 .header a {
     float: left;
     color: white;
     text-align: center;
-    padding: 12px;
+    padding: 0.6386375731772219vw;
     text-decoration: none;
-    font-size: 15px;
-    line-height: 25px;
-    border-radius: 5px;
+    font-size:  0.7450771687067589vw;
+    line-height: 1.3304949441192124vw;
+    border-radius: 0.2660989888238425vw;
 }
 
 .header a.logo {
-    font-size: 20px;
+    font-size: 1.06439595529537vw;
     font-weight: bold;
 }
 
@@ -98,7 +98,7 @@ a {
     float: right;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 26.609898882384247vw) {
     .header a {
         float: none;
         display: block;
@@ -131,7 +131,7 @@ a {
 
 .content h1 {
     font-family: sans-serif;
-    font-size: 54px;
+    font-size: 2.873869079297499vw;
     color: #101010;
     font-weight: 700;
     text-transform: uppercase;
@@ -163,7 +163,7 @@ a {
 }
 
 .overlay p {
-    font-size: 300px;
+    font-size: 15.965939329430547vw;
     font-weight: 800;
 }
 
@@ -174,7 +174,7 @@ a {
     top: -5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 2px 2px white;
+    text-shadow: 0.10643959552953698vw 0.10643959552953698vw white;
     animation: text 3s 1;
     transition-duration: 0.4s;
     animation: fadeIn ease 5s;
@@ -188,7 +188,7 @@ a {
     top: -5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 2px 2px #0097ff;
+    text-shadow: 0.10643959552953698vw 0.10643959552953698vw #0097ff;
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
 }
@@ -200,7 +200,7 @@ a {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 2px 2px white;
+    text-shadow: 0.10643959552953698vw 0.10643959552953698vw white;
     animation: text 3s 1;
     transition-duration: 0.4s;
     animation: fadeIn ease 5s;
@@ -214,7 +214,7 @@ a {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 2px 2px #0097ff;
+    text-shadow: 0.10643959552953698vw 0.10643959552953698vw #0097ff;
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
 }
@@ -286,7 +286,7 @@ a {
     transform: translate(-50%, -50%);
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
-    width: 500px;
+    width: 26.609898882384247vw;
 }
 
 .BackHome {
@@ -301,13 +301,13 @@ a {
 
 button {
     display: block;
-    padding: 24px 48px;
+    padding: 1.2772751463544438vw 2.5545502927088877vw;
     font-family: sans-serif;
     font-weight: 700;
-    font-size: 12px;
-    letter-spacing: 6px;
+    font-size: 0.6386375731772219vw;
+    letter-spacing: 0.31931878658861096vw;
     color: white;
-    border: 2px solid white;
+    border: 0.10643959552953698vw solid white;
     text-transform: uppercase;
     outline: none;
     overflow: hidden;
@@ -353,7 +353,7 @@ button:hover {
     content: "";
     position: absolute;
     background: #0097ff;
-    border: 4px solid #101010;
+    border: 0.21287919105907396vw solid #101010;
     bottom: 0;
     left: 0;
     right: 0;
@@ -366,7 +366,7 @@ button:hover {
     content: "";
     position: absolute;
     background: #0097ff;
-    border: 4px solid #101010;
+    border: 0.21287919105907396vw solid #101010;
     bottom: 0;
     left: 0;
     right: 0;
@@ -379,7 +379,7 @@ button:hover {
     content: "";
     position: absolute;
     background: #0097ff;
-    border: 4px solid #101010;
+    border: 0.21287919105907396vw solid #101010;
     bottom: 0;
     left: 0;
     right: 0;
@@ -392,7 +392,7 @@ button:hover {
     content: "";
     position: absolute;
     background: #0097ff;
-    border: 4px solid #101010;
+    border: 0.21287919105907396vw solid #101010;
     bottom: 0;
     left: 0;
     right: 0;
@@ -405,7 +405,7 @@ button:hover {
     content: "";
     position: absolute;
     background: #0097ff;
-    border: 4px solid #101010;
+    border: 0.21287919105907396vw solid #101010;
     bottom: 0;
     left: 0;
     right: 0;
@@ -418,7 +418,7 @@ button:hover {
     content: "";
     position: absolute;
     background: #0097ff;
-    border: 4px solid #101010;
+    border: 0.21287919105907396vw solid #101010;
     bottom: 0;
     left: 0;
     right: 0;
@@ -431,7 +431,7 @@ button:hover {
     content: "";
     position: absolute;
     background: #0097ff;
-    border: 4px solid #101010;
+    border: 0.21287919105907396vw solid #101010;
     bottom: 0;
     left: 0;
     right: 0;

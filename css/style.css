@@ -98,11 +98,7 @@ a {
     float: right;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 500px) {
-=======
-@media screen and (max-width: 26.609898882384247vw) {
->>>>>>> parent of 0ab8f54... Updated some width
     .header a {
         float: none;
         display: block;
@@ -290,11 +286,7 @@ a {
     transform: translate(-50%, -50%);
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
-<<<<<<< HEAD
     width: 500px;
-=======
-    width: 26.609898882384247vw;
->>>>>>> parent of 0ab8f54... Updated some width
 }
 
 .BackHome {
@@ -487,15 +479,8 @@ button:hover {
 ***************************/
 
 ::-webkit-scrollbar {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width:  0.20690293915467473vw;
-=======
+
     width: 15px;
->>>>>>> parent of 2dac5f4... More PX TO VW
-=======
-    width:  0.7982969664715274vw;
->>>>>>> parent of 0ab8f54... Updated some width
     animation: text 3s 1;
     animation: ease 3s 1;
 }
@@ -531,19 +516,9 @@ button:hover {
 
 #informationbox {
     align-content: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 13.793529276978319vw;
-=======
-    width: 53.219797764768494vw;
->>>>>>> parent of 0ab8f54... Updated some width
-    height: 25.013304949441192vw;
-    padding: 1.5965939329430547vw;
-=======
     width: 1000px;
     height: 470px;
     padding: 30px;
->>>>>>> parent of 2dac5f4... More PX TO VW
     color: white;
     border-radius: 1em;
     padding: 1em;
@@ -588,19 +563,11 @@ button:hover {
 
 #educationbox {
     font-family: sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 31.931878658861095vw;
-=======
-    width: 53.219797764768494vw;
->>>>>>> parent of 0ab8f54... Updated some width
     height: 17.03033528472592vw;
     padding: 15.965939329430547vw;
-=======
     width: 1000px;
     height: 320px;
     padding: 30px;
->>>>>>> parent of 2dac5f4... More PX TO VW
     color: white;
     border-radius: 1em;
     padding: 1em;
@@ -622,19 +589,9 @@ button:hover {
 
 #skillbarbox {
     font-family: sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 31.931878658861095vw;
-=======
-    width: 53.219797764768494vw;
->>>>>>> parent of 0ab8f54... Updated some width
-    height: 16.764236295902077vw;
-    padding: 1.5965939329430547vw;
-=======
     width: 1000px;
     height: 315px;
     padding: 30px;
->>>>>>> parent of 2dac5f4... More PX TO VW
     color: white;
     border-radius: 1em;
     padding: 1em;
@@ -709,60 +666,33 @@ button:hover {
 /*Know But Don't Use 60%*/
 
 .bar.fifthy::before {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: calc(50% - 0.13793529276978314vw);
-=======
+
     width: calc(50% - 10px);
->>>>>>> parent of 2dac5f4... More PX TO VW
-=======
-    width: calc(50% - 0.532197977647685vw);
->>>>>>> parent of 0ab8f54... Updated some width
 }
 
 
 /*Understand to Extent 80%*/
 
 .bar.sixty::before {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: calc(60% - 0.13793529276978314vw);
-=======
-    width: calc(60% - 10px);
->>>>>>> parent of 2dac5f4... More PX TO VW
-=======
-    width: calc(60% - 0.532197977647685vw);
->>>>>>> parent of 0ab8f54... Updated some width
+    width: calc(60% - 10px)
+
 }
 
 
 /*Understand to Extent 80%*/
 
 .bar.eighty::before {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: calc(80% - 0.13793529276978314vw);
-=======
+
     width: calc(80% - 10px);
->>>>>>> parent of 2dac5f4... More PX TO VW
-=======
-    width: calc(80% - 0.532197977647685vw);
->>>>>>> parent of 0ab8f54... Updated some width
+
 }
 
 
 /*Best Skill 100%*/
 
 .bar.expert::before {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: calc(100% - 0.13793529276978314vw);
-=======
+
     width: calc(100% - 10px);
->>>>>>> parent of 2dac5f4... More PX TO VW
-=======
-    width: calc(100% - 0.532197977647685vw);
->>>>>>> parent of 0ab8f54... Updated some width
 }
 
 :root {
@@ -1067,17 +997,6 @@ input[type=submit]:hover {
 
 .contactcontainer {
     font-family: sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    width: 11.034823421582653vw;
-    height: 131.41683778234085vw;
-=======
->>>>>>> parent of 4c949f3... Update style.css
-    width: 42.5758382118148vw;
-    height: 34.06067056945184vw;
-    border: 0.13304949441192124vw solid #0097ff;
-=======
->>>>>>> parent of b335785... All Done with PX TO VW
     width: 800px;
     height: 640px;
     border: 2.5px solid #0097ff;

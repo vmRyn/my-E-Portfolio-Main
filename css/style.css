@@ -98,7 +98,7 @@ a {
     float: right;
 }
 
-@media screen and (max-width: 26.609898882384247vw) {
+@media screen and (max-width: 6.9185737094199045vw) {
     .header a {
         float: none;
         display: block;
@@ -286,7 +286,7 @@ a {
     transform: translate(-50%, -50%);
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
-    width: 26.609898882384247vw;
+    width: 6.9185737094199045vw;
 }
 
 .BackHome {
@@ -479,7 +479,7 @@ button:hover {
 ***************************/
 
 ::-webkit-scrollbar {
-    width:  0.7982969664715274vw;
+    width:  0.20690293915467473vw;
     animation: text 3s 1;
     animation: ease 3s 1;
 }
@@ -515,7 +515,7 @@ button:hover {
 
 #informationbox {
     align-content: center;
-    width: 53.219797764768494vw;
+    width: 13.793529276978319vw;
     height: 25.013304949441192vw;
     padding: 1.5965939329430547vw;
     color: white;
@@ -562,7 +562,7 @@ button:hover {
 
 #educationbox {
     font-family: sans-serif;
-    width: 53.219797764768494vw;
+    width: 31.931878658861095vw;
     height: 17.03033528472592vw;
     padding: 15.965939329430547vw;
     color: white;
@@ -586,7 +586,7 @@ button:hover {
 
 #skillbarbox {
     font-family: sans-serif;
-    width: 53.219797764768494vw;
+    width: 31.931878658861095vw;
     height: 16.764236295902077vw;
     padding: 1.5965939329430547vw;
     color: white;
@@ -663,28 +663,28 @@ button:hover {
 /*Know But Don't Use 60%*/
 
 .bar.fifthy::before {
-    width: calc(50% - 0.532197977647685vw);
+    width: calc(50% - 0.13793529276978314vw);
 }
 
 
 /*Understand to Extent 80%*/
 
 .bar.sixty::before {
-    width: calc(60% - 0.532197977647685vw);
+    width: calc(60% - 0.13793529276978314vw);
 }
 
 
 /*Understand to Extent 80%*/
 
 .bar.eighty::before {
-    width: calc(80% - 0.532197977647685vw);
+    width: calc(80% - 0.13793529276978314vw);
 }
 
 
 /*Best Skill 100%*/
 
 .bar.expert::before {
-    width: calc(100% - 0.532197977647685vw);
+    width: calc(100% - 0.13793529276978314vw);
 }
 
 :root {
@@ -712,8 +712,8 @@ button:hover {
     font-family: sans-serif;
     --bg-filter-opacity: 0.5;
     background-image: linear-gradient(rgba(46, 46, 46, var(--bg-filter-opacity)), rgba(46, 46, 46, var(--bg-filter-opacity))), var(--bg-img);
-    height: 14.6em;
-    width: 14.6em;
+    height: 47.96714579055441vh;
+    width: 12.43214475784992vw;
     font-size: 1.25em;
     color: white;
     border: 0.13304949441192124vw solid #0097ff;

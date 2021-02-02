@@ -98,7 +98,11 @@ a {
     float: right;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 500px) {
+=======
+@media screen and (max-width: 26.609898882384247vw) {
+>>>>>>> parent of 0ab8f54... Updated some width
     .header a {
         float: none;
         display: block;
@@ -286,7 +290,11 @@ a {
     transform: translate(-50%, -50%);
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
+<<<<<<< HEAD
     width: 500px;
+=======
+    width: 26.609898882384247vw;
+>>>>>>> parent of 0ab8f54... Updated some width
 }
 
 .BackHome {
@@ -480,10 +488,14 @@ button:hover {
 
 ::-webkit-scrollbar {
 <<<<<<< HEAD
+<<<<<<< HEAD
     width:  0.20690293915467473vw;
 =======
     width: 15px;
 >>>>>>> parent of 2dac5f4... More PX TO VW
+=======
+    width:  0.7982969664715274vw;
+>>>>>>> parent of 0ab8f54... Updated some width
     animation: text 3s 1;
     animation: ease 3s 1;
 }
@@ -520,7 +532,11 @@ button:hover {
 #informationbox {
     align-content: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 13.793529276978319vw;
+=======
+    width: 53.219797764768494vw;
+>>>>>>> parent of 0ab8f54... Updated some width
     height: 25.013304949441192vw;
     padding: 1.5965939329430547vw;
 =======
@@ -573,7 +589,11 @@ button:hover {
 #educationbox {
     font-family: sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 31.931878658861095vw;
+=======
+    width: 53.219797764768494vw;
+>>>>>>> parent of 0ab8f54... Updated some width
     height: 17.03033528472592vw;
     padding: 15.965939329430547vw;
 =======
@@ -603,7 +623,11 @@ button:hover {
 #skillbarbox {
     font-family: sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 31.931878658861095vw;
+=======
+    width: 53.219797764768494vw;
+>>>>>>> parent of 0ab8f54... Updated some width
     height: 16.764236295902077vw;
     padding: 1.5965939329430547vw;
 =======
@@ -686,10 +710,14 @@ button:hover {
 
 .bar.fifthy::before {
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: calc(50% - 0.13793529276978314vw);
 =======
     width: calc(50% - 10px);
 >>>>>>> parent of 2dac5f4... More PX TO VW
+=======
+    width: calc(50% - 0.532197977647685vw);
+>>>>>>> parent of 0ab8f54... Updated some width
 }
 
 
@@ -697,10 +725,14 @@ button:hover {
 
 .bar.sixty::before {
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: calc(60% - 0.13793529276978314vw);
 =======
     width: calc(60% - 10px);
 >>>>>>> parent of 2dac5f4... More PX TO VW
+=======
+    width: calc(60% - 0.532197977647685vw);
+>>>>>>> parent of 0ab8f54... Updated some width
 }
 
 
@@ -708,10 +740,14 @@ button:hover {
 
 .bar.eighty::before {
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: calc(80% - 0.13793529276978314vw);
 =======
     width: calc(80% - 10px);
 >>>>>>> parent of 2dac5f4... More PX TO VW
+=======
+    width: calc(80% - 0.532197977647685vw);
+>>>>>>> parent of 0ab8f54... Updated some width
 }
 
 
@@ -719,10 +755,14 @@ button:hover {
 
 .bar.expert::before {
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: calc(100% - 0.13793529276978314vw);
 =======
     width: calc(100% - 10px);
 >>>>>>> parent of 2dac5f4... More PX TO VW
+=======
+    width: calc(100% - 0.532197977647685vw);
+>>>>>>> parent of 0ab8f54... Updated some width
 }
 
 :root {
@@ -750,8 +790,8 @@ button:hover {
     font-family: sans-serif;
     --bg-filter-opacity: 0.5;
     background-image: linear-gradient(rgba(46, 46, 46, var(--bg-filter-opacity)), rgba(46, 46, 46, var(--bg-filter-opacity))), var(--bg-img);
-    height: 47.96714579055441vh;
-    width: 12.43214475784992vw;
+    height: 14.6em;
+    width: 14.6em;
     font-size: 1.25em;
     color: white;
     border: 2.5px solid #0097ff;

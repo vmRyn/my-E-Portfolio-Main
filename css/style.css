@@ -99,10 +99,14 @@ a {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @media screen and (max-width: 6.9185737094199045vw) {
 =======
 @media screen and (max-width: 500px) {
 >>>>>>> parent of 52bd5b6... PX TO VW
+=======
+@media screen and (max-width: 26.609898882384247vw) {
+>>>>>>> parent of 0ab8f54... Updated some width
     .header a {
         float: none;
         display: block;
@@ -291,10 +295,14 @@ a {
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 6.9185737094199045vw;
 =======
     width: 500px;
 >>>>>>> parent of 52bd5b6... PX TO VW
+=======
+    width: 26.609898882384247vw;
+>>>>>>> parent of 0ab8f54... Updated some width
 }
 
 .BackHome {
@@ -487,7 +495,7 @@ button:hover {
 ***************************/
 
 ::-webkit-scrollbar {
-    width:  0.20690293915467473vw;
+    width:  0.7982969664715274vw;
     animation: text 3s 1;
     animation: ease 3s 1;
 }
@@ -523,7 +531,7 @@ button:hover {
 
 #informationbox {
     align-content: center;
-    width: 13.793529276978319vw;
+    width: 53.219797764768494vw;
     height: 25.013304949441192vw;
     padding: 1.5965939329430547vw;
     color: white;
@@ -570,7 +578,7 @@ button:hover {
 
 #educationbox {
     font-family: sans-serif;
-    width: 31.931878658861095vw;
+    width: 53.219797764768494vw;
     height: 17.03033528472592vw;
     padding: 15.965939329430547vw;
     color: white;
@@ -594,7 +602,7 @@ button:hover {
 
 #skillbarbox {
     font-family: sans-serif;
-    width: 31.931878658861095vw;
+    width: 53.219797764768494vw;
     height: 16.764236295902077vw;
     padding: 1.5965939329430547vw;
     color: white;
@@ -671,28 +679,28 @@ button:hover {
 /*Know But Don't Use 60%*/
 
 .bar.fifthy::before {
-    width: calc(50% - 0.13793529276978314vw);
+    width: calc(50% - 0.532197977647685vw);
 }
 
 
 /*Understand to Extent 80%*/
 
 .bar.sixty::before {
-    width: calc(60% - 0.13793529276978314vw);
+    width: calc(60% - 0.532197977647685vw);
 }
 
 
 /*Understand to Extent 80%*/
 
 .bar.eighty::before {
-    width: calc(80% - 0.13793529276978314vw);
+    width: calc(80% - 0.532197977647685vw);
 }
 
 
 /*Best Skill 100%*/
 
 .bar.expert::before {
-    width: calc(100% - 0.13793529276978314vw);
+    width: calc(100% - 0.532197977647685vw);
 }
 
 :root {
@@ -720,8 +728,8 @@ button:hover {
     font-family: sans-serif;
     --bg-filter-opacity: 0.5;
     background-image: linear-gradient(rgba(46, 46, 46, var(--bg-filter-opacity)), rgba(46, 46, 46, var(--bg-filter-opacity))), var(--bg-img);
-    height: 47.96714579055441vh;
-    width: 12.43214475784992vw;
+    height: 14.6em;
+    width: 14.6em;
     font-size: 1.25em;
     color: white;
     border: 0.13304949441192124vw solid #0097ff;

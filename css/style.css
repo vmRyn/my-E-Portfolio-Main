@@ -27,7 +27,7 @@ body {
 }
 
 .main {
-    max-width: 1000px;
+    max-width: 53.2vw;
     margin: auto;
 }
 
@@ -75,7 +75,7 @@ a {
     padding: 12px;
     text-decoration: none;
     font-size: 15px;
-    line-height: 25px;
+    line-height: 2.63vh;
     border-radius: 5px;
 }
 
@@ -98,7 +98,7 @@ a {
     float: right;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 26.6vw) {
     .header a {
         float: none;
         display: block;
@@ -286,7 +286,7 @@ a {
     transform: translate(-50%, -50%);
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
-    width: 500px;
+    width: 26.6vw;
 }
 
 .BackHome {
@@ -480,7 +480,7 @@ button:hover {
 
 ::-webkit-scrollbar {
 
-    width: 15px;
+    width: 0.79vw;
     animation: text 3s 1;
     animation: ease 3s 1;
 }
@@ -516,8 +516,8 @@ button:hover {
 
 #informationbox {
     align-content: center;
-    width: 1000px;
-    height: 470px;
+    width: 53.2vw;
+    height: 49.5vh;
     padding: 30px;
     color: white;
     border-radius: 1em;
@@ -540,8 +540,8 @@ button:hover {
 
 #smallinfobox {
     align-content: center;
-    width: 600px;
-    height: 14.6em;
+    width: 31.9vw;
+    height:  24.6vh;
     color: white;
     border-radius: 1em;
     padding: 1em;
@@ -563,10 +563,10 @@ button:hover {
 
 #educationbox {
     font-family: sans-serif;
-    height: 17.03033528472592vw;
-    padding: 15.965939329430547vw;
-    width: 1000px;
-    height: 320px;
+    height: 33.7vh;
+    padding: 15.9vw;
+    width: 53.2vw;
+    height: 33.7vh;
     padding: 30px;
     color: white;
     border-radius: 1em;
@@ -589,8 +589,8 @@ button:hover {
 
 #skillbarbox {
     font-family: sans-serif;
-    width: 1000px;
-    height: 315px;
+    width: 53.2vw;
+    height: 33.1vh;
     padding: 30px;
     color: white;
     border-radius: 1em;
@@ -667,14 +667,14 @@ button:hover {
 
 .bar.fifthy::before {
 
-    width: calc(50% - 10px);
+    width: calc(50% - 0.53vw);
 }
 
 
 /*Understand to Extent 80%*/
 
 .bar.sixty::before {
-    width: calc(60% - 10px)
+    width: calc(60% - 0.53vw)
 
 }
 
@@ -683,7 +683,7 @@ button:hover {
 
 .bar.eighty::before {
 
-    width: calc(80% - 10px);
+    width: calc(80% - 0.53vw);
 
 }
 
@@ -692,7 +692,7 @@ button:hover {
 
 .bar.expert::before {
 
-    width: calc(100% - 10px);
+    width: calc(100% - 0.53vw);
 }
 
 :root {
@@ -720,8 +720,8 @@ button:hover {
     font-family: sans-serif;
     --bg-filter-opacity: 0.5;
     background-image: linear-gradient(rgba(46, 46, 46, var(--bg-filter-opacity)), rgba(46, 46, 46, var(--bg-filter-opacity))), var(--bg-img);
-    height: 14.6em;
-    width: 14.6em;
+    height: 24.6vh;
+    width: 12.4vw;
     font-size: 1.25em;
     color: white;
     border: 2.5px solid #0097ff;
@@ -746,7 +746,7 @@ button:hover {
 .card h1 {
     margin: 0;
     font-size: 1.5em;
-    line-height: 1.2em;
+    line-height: 2.0vh;
     text-align: center;
 }
 
@@ -754,7 +754,7 @@ button:hover {
     font-size: 0.75em;
     font-family: sans-serif;
     margin-top: 0.5em;
-    line-height: 2em;
+    line-height: 3.3vh;
 }
 
 .card .tags {
@@ -767,7 +767,7 @@ button:hover {
     border-radius: 0.3rem;
     padding: 0 0.5em;
     margin-right: 0.5em;
-    line-height: 1.5em;
+    line-height: 2.5vh;
     transition: all, var(--transition-time);
 }
 
@@ -939,7 +939,7 @@ img:hover {
     animation: ease 3s 1;
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
-    height: 250px;
+    height: 26.3vh;
 }
 
 .column:hover {
@@ -997,8 +997,8 @@ input[type=submit]:hover {
 
 .contactcontainer {
     font-family: sans-serif;
-    width: 800px;
-    height: 640px;
+    width: 42.5vw;
+    height: 67.4vh;
     border: 2.5px solid #0097ff;
     background-image: url(../images/Opacity.png);
     padding: 30px;
@@ -1034,7 +1034,7 @@ input[type=submit]:hover {
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 31.9vw) {
     .column2,
     input[type=submit] {
         width: 100%;
@@ -1043,11 +1043,10 @@ input[type=submit]:hover {
 }
 
 textarea {
-    height: 250px;
-    max-height: 250px;
-    min-height: 250px;
+    height: 26.3vh;
+    max-height: 26.3vh;
+    min-height: 26.3vh;
 }
-
 
 /***************************
      Contact Box END

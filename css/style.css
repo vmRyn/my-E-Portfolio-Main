@@ -959,12 +959,12 @@ img:hover {
 }
 
 .row {
-    margin: 0 -5px;
+    margin: 5 5px;
 }
 
 .row:after {
     content: "";
-    display: table;
+    display: list-item;
     clear: both;
 }
 

@@ -1027,11 +1027,14 @@ input[type=submit]:hover {
 
 .contactcontainer {
     font-family: sans-serif;
+<<<<<<< HEAD
     width: 11.034823421582653vw;
     height: 131.41683778234085vw;
     width: 42.5758382118148vw;
     height: 34.06067056945184vw;
     border: 0.13304949441192124vw solid #0097ff;
+=======
+>>>>>>> parent of b335785... All Done with PX TO VW
     width: 800px;
     height: 640px;
     border: 2.5px solid #0097ff;

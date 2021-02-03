@@ -199,7 +199,7 @@ p {
     color: #0097ff;
     font-family: sans-serif;
     position: absolute;
-    bottom: -40%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px white;
@@ -213,7 +213,7 @@ p {
     color: white;
     font-family: sans-serif;
     position: absolute;
-    bottom: -45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px #0097ff;

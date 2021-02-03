@@ -174,7 +174,8 @@ p {
 .screen {
     color: #0097ff;
     font-family: sans-serif;
-    position: absolute; 
+    position: absolute;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px white;
@@ -188,32 +189,6 @@ p {
     color: white;
     font-family: sans-serif;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px 2px #0097ff;
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
-}
-
-.screen2 {
-    color: #0097ff;
-    font-family: sans-serif;
-    position: absolute;
-    bottom: -40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: 2px 2px white;
-    animation: text 3s 1;
-    transition-duration: 0.4s;
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
-}
-
-.screen2:hover {
-    color: white;
-    font-family: sans-serif;
-    position: absolute;
-    bottom: -40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 2px 2px #0097ff;
@@ -309,7 +284,7 @@ button {
     font-size: 0.63vw;
     letter-spacing: 0.6vw;
     color: white;
-    border: 0.2vw solid white;
+    border: 2px solid white;
     text-transform: uppercase;
     outline: none;
     overflow: hidden;

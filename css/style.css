@@ -73,7 +73,7 @@ p {
 }
 
 .header a {
-    float: left;
+    float: center;
     color: white;
     text-align: center;
     padding: 12px;
@@ -494,7 +494,7 @@ button:hover {
 #informationbox {
     align-content: center;
     width: 53.2vw;
-    height: 49.5vh;
+    height: 40.0vh;
     padding: 30px;
     color: white;
     border-radius: 1em;
@@ -928,7 +928,7 @@ img:hover {
     animation: ease 3s 1;
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
-    height: 26.3vh;
+    height: 27.3vh;
 }
 
 .column:hover {

@@ -1033,7 +1033,7 @@ input[type=submit]:hover {
     clear: both;
 }
 
-@media screen and (max-width: 31.9vw) {
+@media screen {
     .column2,
     input[type=submit] {
         width: 100%;

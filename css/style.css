@@ -208,6 +208,7 @@ p {
 
 .myBtn {
     font-family: Poppins;
+    font-size: 13px;
     position: absolute;
     top: 44%;
     left: 50%;
@@ -218,6 +219,7 @@ p {
 
 .myBtn2 {
     font-family: Poppins;
+    font-size: 13px;
     position: absolute;
     top: 54%;
     left: 50%;
@@ -239,6 +241,7 @@ p {
 .ShowmyBtn {
     font-family: Poppins;
     position: absolute;
+    font-size: 13px;
     top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);

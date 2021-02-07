@@ -44,7 +44,7 @@ body {
 }
 
 .main {
-    max-width: 53.2vw;
+    max-width: 63.8vw;
     margin: auto;
 }
 
@@ -84,7 +84,7 @@ p {
     font-family: Poppins;
     border-radius: 5px;
     position: fixed;
-    width: 53.7%;
+    width: 63.8vw;
     z-index: 9999;
     border: 2.5px solid #0097ff;
 }
@@ -521,7 +521,7 @@ button:hover {
 
 #informationbox {
     align-content: center;
-    width: 53.2vw;
+    width: 63.8vw;
     height: 40.0vh;
     padding: 30px;
     color: white;
@@ -570,7 +570,7 @@ button:hover {
     font-family: sans-serif;
     height: 33.7vh;
     padding: 15.9vw;
-    width: 53.2vw;
+    width: 63.8vw;
     height: 33.7vh;
     padding: 30px;
     color: white;
@@ -594,7 +594,7 @@ button:hover {
 
 #skillbarbox {
     font-family: sans-serif;
-    width: 53.2vw;
+    width: 63.8vw;
     height: 33.1vh;
     padding: 30px;
     color: white;
@@ -726,7 +726,7 @@ button:hover {
     --bg-filter-opacity: 0.5;
     background-image: linear-gradient(rgba(46, 46, 46, var(--bg-filter-opacity)), rgba(46, 46, 46, var(--bg-filter-opacity))), var(--bg-img);
     height: 24.6vh;
-    width: 12.4vw;
+    width: 15.9vw;
     font-size: 1.0vw;
     color: white;
     border: 2.5px solid #0097ff;
@@ -1024,7 +1024,7 @@ input[type=submit]:hover {
 
 .contactcontainer {
     font-family: sans-serif;
-    width: 42.5vw;
+    width: 63.8vw;
     height: 67.4vh;
     border: 2.5px solid #0097ff;
     background-image: url(../images/Opacity.png);

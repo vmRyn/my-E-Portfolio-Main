@@ -19,13 +19,13 @@
 
     <div class="overlay">
         <center>
-            <p class="screen">RYAN DEMPSEY</p>
+            <p class="screen" id="LargeName"></p>
             <br>
         </center>
         <div class="intro">
-            <button class="myBtn" onclick="fadeOut(),ShowAndHide2() ;play()">E-Portfolio</button>
+            <button class="myBtn" onclick="fadeOut(),ShowAndHide2() ;play()" id="TopMainButton"></button>
             </br>
-            <button class="myBtn2" onclick="play()"><a href="https://github.com/vmRyn"target="_blank">My Github</a></button>
+            <button class="myBtn2" onclick="play()"><a href="https://github.com/vmRyn"target="_blank" id="BottomMainButton"></a></button>
         </div>
     </div>
 
@@ -37,17 +37,17 @@
     <div class="main">
 
         <div id="ShowButtonLast" style="display:none;">
-            <button class="ShowmyBtn" onclick="ShowAndHide() ;fadeIn() ;HideNav() ;play()">REVEAL WEBSITE</button>
+            <button class="ShowmyBtn" onclick="ShowAndHide() ;fadeIn() ;HideNav() ;play()" id="RevealButton"></button>
         </div>
 
         <div id="HideNavBar" style="display:none;">
             <div class="header">
-                <a href="index.html" class="logo">Ryan Dempsey</a>
+                <a href="index.html" class="logo" id="NavName"></a>
                 <div class="header-right">
-                    <a href="#AboutMe">About</a>
-                    <a href="#Skills">Skills</a>
-                    <a href="#Work">Projects</a>
-                    <a href="#ContactMe">Contact</a>
+                    <a href="#AboutMe" id="NavAbout"></a>
+                    <a href="#Skills" id="NavSkills"></a>
+                    <a href="#Work" id="NavProjects"></a>
+                    <a href="#ContactMe" id="NavContact"></a>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
                 <pre class="tab">               </pre>
 
 
-                <h1 class="aboutme">ABOUT ME</h1>
+                <h1 class="aboutme" id="HeaderAbout"></h1>
                 <hr>
 
                 <pre class="tab">               </pre>
@@ -114,7 +114,7 @@
                 <pre class="tab">               </pre>
 
 
-                <h1 class="Titles">MY SKILLS</h1>
+                <h1 class="Titles" id="HeaderSkills"></h1>
                 <hr>
 
                 <section class="cards-wrapper">
@@ -203,7 +203,7 @@
                 <pre class="tab">               </pre>
                 <pre class="tab">               </pre>
 
-                <h1 class="Titles">PROJECTS</h1>
+                <h1 class="Titles" id="HeaderProjects"></h1>
                 <hr>
 
                 <pre class="tab">               </pre>
@@ -236,7 +236,7 @@
                 <pre class="tab">               </pre>
 
                 <section id="ContactMe">
-                    <h1 class="Titles">CONTACT ME</h1>
+                    <h1 class="Titles" id="HeaderContact"></h1>
                     <hr>
 
                     <pre class="tab">               </pre>
@@ -256,7 +256,7 @@
                                     <label><textarea name="message" placeholder="ENTER YOUR MESSAGE"></textarea></label>
                                 </p>
                                 <p>
-                                    <button type="submit">SEND FORM</button></a>
+                                    <button type="submit" id="SendFormButton"></button></a>
                                 </p>
                             </form>
                         </div>
@@ -268,126 +268,131 @@
 
                 <hr>
                 <div class="footer">
-                    <p><a href="https://www.byryn.xyz" target="_blank">© DESIGNED BY RYN</p>
-          </div>
-       </div>
-     </div>
+                    <p>
+                        <a href="https://www.byryn.xyz" target="_blank" id="Footer"></p>
+                </div>
+        </div>
+    </div>
 
 
-<script>
-     function fadeOut() {
-     TweenMax.to(".myBtn", 1, {
-          y: -100,
-          opacity: 0
-     });
+    <script>
+        function fadeOut() {
+            TweenMax.to(".myBtn", 1, {
+                y: -100,
+                opacity: 0
+            });
 
-     TweenMax.to(".myBtn2", 1, {
-          y: -100,
-          opacity: 0
-     });
+            TweenMax.to(".myBtn2", 1, {
+                y: -100,
+                opacity: 0
+            });
 
-     TweenMax.to(".myBtn3", 1, {
-          y: -100,
-          opacity: 0
-     });
+            TweenMax.to(".myBtn3", 1, {
+                y: -100,
+                opacity: 0
+            });
 
-     TweenMax.to(".screen", 2, {
-          y: -400,
-          opacity: 0,
-          ease: Power2.easeInOut,
-          delay: 2
-     });
+            TweenMax.to(".screen", 2, {
+                y: -400,
+                opacity: 0,
+                ease: Power2.easeInOut,
+                delay: 2
+            });
 
-     TweenMax.to(".screen2", 2, {
-          y: -400,
-          opacity: 0,
-          ease: Power2.easeInOut,
-          delay: 2
-     });
+            TweenMax.to(".screen2", 2, {
+                y: -400,
+                opacity: 0,
+                ease: Power2.easeInOut,
+                delay: 2
+            });
 
-     TweenMax.from(".overlay", 2, {
-          ease: Power2.easeInOut
-     });
+            TweenMax.from(".overlay", 2, {
+                ease: Power2.easeInOut
+            });
 
-     TweenMax.to(".overlay", 2, {
-          delay: 2.6,
-          top: "-110%",
-          ease: Expo.easeInOut
-     });
+            TweenMax.to(".overlay", 2, {
+                delay: 2.6,
+                top: "-110%",
+                ease: Expo.easeInOut
+            });
 
-     TweenMax.to(".overlay-2", 2, {
-          delay: 3,
-          top: "-110%",
-          ease: Expo.easeInOut
-     });
+            TweenMax.to(".overlay-2", 2, {
+                delay: 3,
+                top: "-110%",
+                ease: Expo.easeInOut
+            });
 
-     TweenMax.from(".content", 2, {
-          delay: 3.2,
-          opacity: 0,
-          ease: Power2.easeInOut
-     });
+            TweenMax.from(".content", 2, {
+                delay: 3.2,
+                opacity: 0,
+                ease: Power2.easeInOut
+            });
 
-     TweenMax.to(".content", 2, {
-          opacity: 1,
-          y: -300,
-          delay: 3.2,
-          ease: Power2.easeInOut
-     });
+            TweenMax.to(".content", 2, {
+                opacity: 1,
+                y: -300,
+                delay: 3.2,
+                ease: Power2.easeInOut
+            });
 
-     }
-</script>
-
-<script>
-     function fadeIn() {
-     TweenMax.to(".ShowmyBtn", 1, {
-          y: -100,
-          opacity: 0
-     });
-     }
-</script>
-
-<script>
-     function ShowAndHide() {
-         var x = document.getElementById('RynShowMe');
-         if (x.style.display == 'none') {
-             x.style.display = 'block';
-         } else {
-             x.style.display = 'none';
-         }
-     }
-</script>
-
-<script>
-    function ShowAndHide2() {
-        var x = document.getElementById('ShowButtonLast');
-        if (x.style.display == 'none') {
-            x.style.display = 'block';
-        } else {
-            x.style.display = 'none';
         }
-    }
-</script>
+    </script>
 
-<script>
-    function HideNav() {
-        var x = document.getElementById('HideNavBar');
-        if (x.style.display == 'none') {
-            x.style.display = 'block';
-        } else {
-            x.style.display = 'none';
+    <script>
+        function fadeIn() {
+            TweenMax.to(".ShowmyBtn", 1, {
+                y: -100,
+                opacity: 0
+            });
         }
-    }
-</script>
+    </script>
 
-<script>
-    function play() {
-        var audio = document.getElementById("ButtonClickAudio");
-        audio.volume = .25;
-        audio.play();
-    }
-</script>
+    <script>
+        function ShowAndHide() {
+            var x = document.getElementById('RynShowMe');
+            if (x.style.display == 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </script>
+
+    <script>
+        function ShowAndHide2() {
+            var x = document.getElementById('ShowButtonLast');
+            if (x.style.display == 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </script>
+
+    <script>
+        function HideNav() {
+            var x = document.getElementById('HideNavBar');
+            if (x.style.display == 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </script>
+
+    <script>
+        function play() {
+            var audio = document.getElementById("ButtonClickAudio");
+            audio.volume = .25;
+            audio.play();
+        }
+    </script>
+
+    <script src="js/master/config.js"></script>
+    <script src="js/master/elements.js"></script>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+
 </html>

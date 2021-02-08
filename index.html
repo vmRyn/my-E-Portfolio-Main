@@ -12,235 +12,228 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/RynTrans.png">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,700,700i,800,800i,900,900i" rel="stylesheet">
+    <audio id="ButtonClickAudio" volume="1" id="audio" src="hover.mp3"></audio>
 </head>
 
 <body>
 
-        <div class="overlay">
-            <center>
-                <p class="screen">RYAN DEMPSEY</p>
-                <br>
-            </center>
-            <div class="intro">
-                <button class="myBtn" onclick="fadeOut(),ShowAndHide2()">E-Portfolio</button>
+    <div class="overlay">
+        <center>
+            <p class="screen">RYAN DEMPSEY</p>
+            <br>
+        </center>
+        <div class="intro">
+            <button class="myBtn" onclick="fadeOut(),ShowAndHide2() ;play()">E-Portfolio</button>
             </br>
-                <button class="myBtn2"><a href="https://github.com/vmRyn"target="_blank">My Github</a></button>
-            </div>
+            <button class="myBtn2" onclick="play()"><a href="https://github.com/vmRyn"target="_blank">My Github</a></button>
+        </div>
+    </div>
+
+    <div class="overlay-2"></div>
+
+    <div class="content">
+    </div>
+
+    <div class="main">
+
+        <div id="ShowButtonLast" style="display:none;">
+            <button class="ShowmyBtn" onclick="ShowAndHide() ;fadeIn() ;HideNav() ;play()">REVEAL WEBSITE</button>
         </div>
 
-        <div class="overlay-2"></div>
-
-        <div class="content">
-        </div>
-
-        <div class="main">
-
-            <div id="ShowButtonLast" style="display:none;">
-                <button class="ShowmyBtn" onclick="ShowAndHide() ;fadeIn() ;HideNav()">REVEAL WEBSITE</button>
-            </div>
-
-            <div id="HideNavBar" style="display:none;">
-                <div class="header">
-                    <a href="index.html" class="logo">Ryan Dempsey</a>
-                    <div class="header-right">
-                        <a href="#AboutMe">About</a>
-                        <a href="#Skills">Skills</a>
-                        <a href="#Work">Projects</a>
-                        <a href="#ContactMe">Contact</a>
-                    </div>
+        <div id="HideNavBar" style="display:none;">
+            <div class="header">
+                <a href="index.html" class="logo">Ryan Dempsey</a>
+                <div class="header-right">
+                    <a href="#AboutMe">About</a>
+                    <a href="#Skills">Skills</a>
+                    <a href="#Work">Projects</a>
+                    <a href="#ContactMe">Contact</a>
                 </div>
             </div>
+        </div>
 
-            <pre class="tab">               </pre>
+        <pre class="tab">               </pre>
 
-            <div id="RynShowMe" style="display:none">
-                <section id="AboutMe">
-                    <pre class="tab">               </pre>
-                    <pre class="tab">               </pre>
-                    <pre class="tab">               </pre>
-                    <h1 class="aboutme">ABOUT ME</h1>
-                    <hr>
+        <div id="RynShowMe" style="display:none">
+            <section id="AboutMe">
+                <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
 
-                    <pre class="tab">               </pre>
 
-                    <center><img src="images/RD2.jpg" style="max-width:100%;height:auto;"<br></center>
+                <h1 class="aboutme">ABOUT ME</h1>
+                <hr>
 
-                    <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
 
-                    <div id="informationbox">
-                        <h5>NAME:</h5>
-                        Ryan Dempsey
-                        <br>
-                        <h5>AGE:</h5>
-                        18 Years old - 18/06/2002
-                        <br>
-                        <h5>HOBBIES:</h5>
-                        Gaming, Television & Coding
-                        <br>
-                        <h5>INFORMATION:</h5>
-                        Instagram: rayn.hd
-                        <br>
-                        Snapchat: rionuk
-                        <br>
-                        Github: vmRyn
-                        <br>
-                        Steam: Ryn (RionnFreshly)
+                <center><img src="images/RD2.jpg" style="max-width:100%;height:auto;" <br></center>
+
+                <pre class="tab">               </pre>
+
+                <div id="informationbox">
+                    <h5>NAME:</h5>
+                    Ryan Dempsey
+                    <br>
+                    <h5>AGE:</h5>
+                    18 Years old - 18/06/2002
+                    <br>
+                    <h5>HOBBIES:</h5>
+                    Gaming, Television & Coding
+                    <br>
+                    <h5>INFORMATION:</h5>
+                    Instagram: rayn.hd
+                    <br> Snapchat: rionuk
+                    <br> Github: vmRyn
+                    <br> Steam: Ryn (RionnFreshly)
+                </div>
+
+                <pre class="tab">               </pre>
+
+                <div id="educationbox">
+                    <h5>Education 2013 - Present:</h5>
+                    - Bonus Pastor Catholic College
+                    <br> - LSEC Bromley College
+                    <br>
+                    <h5>Grades:</h5>
+                    ICT - 4 (C)
+                    <br> Photography - 7 (A)
+                    <br> Maths - 4 (C)
+                    <br> English - 3 (D)
+                    <br> Level 2 IT Information & Creative Technology - PP
+                    <br> Level 3 IT Software Year 1 - Double Pass (PP)
+                    <br> Level 3 IT Software Year 2 - Currently Doing
+                </div>
+
+                <pre class="tab">               </pre>
+
+            </section>
+
+            <section id="Skills">
+                <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
+
+
+                <h1 class="Titles">MY SKILLS</h1>
+                <hr>
+
+                <section class="cards-wrapper">
+                    <div class="card-grid-space">
+                        <a1 class="card" style="--bg-img: url(https://i.imgur.com/8OYUrhe.png)">
+                            <div>
+                                <h1>HTML</h1>
+                                <p></p>
+                                <div class="tags">
+                                </div>
+                            </div>
+                        </a1>
                     </div>
 
-                    <pre class="tab">               </pre>
-
-                    <div id="educationbox">
-                        <h5>Education 2013 - Present:</h5>
-                        - Bonus Pastor Catholic College
-                        <br>
-                        - LSEC Bromley College
-                        <br>
-                        <h5>Grades:</h5>
-                        ICT - 4 (C)
-                        <br>
-                        Photography - 7 (A)
-                        <br>
-                        Maths - 4 (C)
-                        <br>
-                        English - 3 (D)
-                        <br>
-                        Level 2 IT Information & Creative Technology - PP
-                        <br>
-                        Level 3 IT Software Year 1 - Double Pass (PP)
-                        <br>
-                        Level 3 IT Software Year 2 - Currently Doing
+                    <div class="card-grid-space">
+                        <a1 class="card" style="--bg-img: url(https://i.imgur.com/VrfQ3et.png)">
+                            <div>
+                                <h1>C#</h1>
+                                <p></p>
+                                <div class="tags">
+                                </div>
+                            </div>
+                        </a1>
                     </div>
 
-                    <pre class="tab">               </pre>
+                    <div class="card-grid-space">
+                        <a1 class="card" style="--bg-img: url(https://i.imgur.com/OkQoiOZ.png)">
+                            <div>
+                                <h1>Visual Basics</h1>
+                                <p></p>
+                                <div class="tags">
+                                </div>
+                            </div>
+                        </a1>
+                    </div>
 
+                    <div class="card-grid-space">
+                        <a1 class="card" style="--bg-img: url(https://i.imgur.com/HWNPgqq.png)">
+                            <div>
+                                <h1>JavaScript</h1>
+                                <p></p>
+                                <div class="tags">
+                                </div>
+                            </div>
+                        </a1>
+                    </div>
+
+                    <div class="card-grid-space">
+                        <a1 class="card" style="--bg-img: url(https://i.imgur.com/RNgawGP.png)">
+                            <div>
+                                <h1>C++</h1>
+                                <p></p>
+                                <div class="tags">
+                                </div>
+                            </div>
+                        </a1>
+                    </div>
+
+                    <div class="card-grid-space">
+                        <a1 class="card" style="--bg-img: url(https://i.imgur.com/RNgawGP.png)">
+                            <div>
+                                <h1>INFO</h1>
+                                <p></p>
+                                <div class="tags">
+                                </div>
+                            </div>
+                        </a1>
+                    </div>
                 </section>
 
-                <section id="Skills">
-                    <pre class="tab">               </pre>
-                    <pre class="tab">               </pre>
-                    <pre class="tab">               </pre>
+                <div id="skillbarbox">
+                    <center>
+                        <h3>WORST TO BEST KNOWLEDGE LEVEL</h3>
+                    </center>
+                    <div class="bar jbar sixty" data-skill="JavaScript"></div>
+                    <div class="bar cbar eighty" data-skill="Visual Basic"></div>
+                    <div class="bar cbar eighty" data-skill="C#"></div>
+                    <div class="bar cbar eighty" data-skill="C++"></div>
+                    <div class="bar htmlbar expert" data-skill="HTML"></div>
+                </div>
 
+            </section>
 
-                    <h1 class="Titles">MY SKILLS</h1>
-                    <hr>
+            <section id="Work">
+                <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
 
-                    <section class="cards-wrapper">
-                        <div class="card-grid-space">
-                            <a1 class="card" style="--bg-img: url(https://i.imgur.com/8OYUrhe.png)">
-                                <div>
-                                    <h1>HTML</h1>
-                                    <p></p>
-                                    <div class="tags">
-                                    </div>
-                                </div>
-                            </a1>
-                        </div>
+                <h1 class="Titles">PROJECTS</h1>
+                <hr>
 
-                        <div class="card-grid-space">
-                            <a1 class="card" style="--bg-img: url(https://i.imgur.com/VrfQ3et.png)">
-                                <div>
-                                    <h1>C#</h1>
-                                    <p></p>
-                                    <div class="tags">
-                                    </div>
-                                </div>
-                            </a1>
-                        </div>
+                <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
 
-                        <div class="card-grid-space">
-                            <a1 class="card" style="--bg-img: url(https://i.imgur.com/OkQoiOZ.png)">
-                                <div>
-                                    <h1>Visual Basics</h1>
-                                    <p></p>
-                                    <div class="tags">
-                                    </div>
-                                </div>
-                            </a1>
-                        </div>
-
-                        <div class="card-grid-space">
-                            <a1 class="card" style="--bg-img: url(https://i.imgur.com/HWNPgqq.png)">
-                                <div>
-                                    <h1>JavaScript</h1>
-                                    <p></p>
-                                    <div class="tags">
-                                    </div>
-                                </div>
-                            </a1>
-                        </div>
-
-                        <div class="card-grid-space">
-                            <a1 class="card" style="--bg-img: url(https://i.imgur.com/RNgawGP.png)">
-                                <div>
-                                    <h1>C++</h1>
-                                    <p></p>
-                                    <div class="tags">
-                                    </div>
-                                </div>
-                            </a1>
-                        </div>
-
-                        <div class="card-grid-space">
-                            <a1 class="card" style="--bg-img: url(https://i.imgur.com/RNgawGP.png)">
-                                <div>
-                                    <h1>INFO</h1>
-                                    <p></p>
-                                    <div class="tags">
-                                    </div>
-                                </div>
-                            </a1>
-                        </div>
-                    </section>
-
-                    <div id="skillbarbox">
+                <div class="row">
+                    <div class="column">
                         <center>
-                            <h3>WORST TO BEST KNOWLEDGE LEVEL</h3>
-                        </center>
-                        <div class="bar jbar sixty" data-skill="JavaScript"></div>
-                        <div class="bar cbar eighty" data-skill="Visual Basic"></div>
-                        <div class="bar cbar eighty" data-skill="C#"></div>
-                        <div class="bar cbar eighty" data-skill="C++"></div>
-                        <div class="bar htmlbar expert" data-skill="HTML"></div>
-                    </div>
-
-                </section>
-
-                <section id="Work">
-                    <pre class="tab">               </pre>
-                    <pre class="tab">               </pre>
-                    <pre class="tab">               </pre>
-
-                    <h1 class="Titles">PROJECTS</h1>
-                    <hr>
-
-                    <pre class="tab">               </pre>
-                    <pre class="tab">               </pre>
-                    
-                    <div class="row">
-                        <div class="column">
-                            <center>
                             <h4>Gaming Landing Page</h4>
                             <h5>A Gaming Community Landing Page, Coded in HTML, CSS and JS.</h5>
                         </center>
-                        </div>
+                    </div>
 
-                        <div class="column">
-                            <center>
+                    <div class="column">
+                        <center>
                             <h4>GTA FiveM Loading Screen</h4>
                             <h5>A GTA FiveM Custom Loading Screen, Coded in HTML, CSS, JS and Lua.</h5>
                         </center>
-                        </div>
-                        <div class="column">
-                            <center>
+                    </div>
+                    <div class="column">
+                        <center>
                             <h4>E-Portfolio Template By Me</h4>
                             <h5>A Free to use Website Portfolio Template, Coded in HTML, CSS and JS.</h5>
                         </center>
-                        </div>
-                      </div>
+                    </div>
+                </div>
 
-                    <pre class="tab">               </pre>
-                    <pre class="tab">               </pre>
-                    <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
+                <pre class="tab">               </pre>
 
                 <section id="ContactMe">
                     <h1 class="Titles">CONTACT ME</h1>
@@ -281,10 +274,8 @@
      </div>
 
 
-    <script>
-
+<script>
      function fadeOut() {
-
      TweenMax.to(".myBtn", 1, {
           y: -100,
           opacity: 0
@@ -344,23 +335,18 @@
      });
 
      }
+</script>
 
-    </script>
-
-     <script>
-
+<script>
      function fadeIn() {
-
      TweenMax.to(".ShowmyBtn", 1, {
           y: -100,
           opacity: 0
      });
      }
+</script>
 
-     </script>
-
-     <script>
-
+<script>
      function ShowAndHide() {
          var x = document.getElementById('RynShowMe');
          if (x.style.display == 'none') {
@@ -369,11 +355,9 @@
              x.style.display = 'none';
          }
      }
+</script>
 
-     </script>
-
-    <script>
-
+<script>
     function ShowAndHide2() {
         var x = document.getElementById('ShowButtonLast');
         if (x.style.display == 'none') {
@@ -382,11 +366,9 @@
             x.style.display = 'none';
         }
     }
-
-    </script>
+</script>
 
 <script>
-
     function HideNav() {
         var x = document.getElementById('HideNavBar');
         if (x.style.display == 'none') {
@@ -395,8 +377,15 @@
             x.style.display = 'none';
         }
     }
+</script>
 
-    </script>
+<script>
+    function play() {
+        var audio = document.getElementById("ButtonClickAudio");
+        audio.volume = .25;
+        audio.play();
+    }
+</script>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>

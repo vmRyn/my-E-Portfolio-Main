@@ -26,23 +26,43 @@ body {
 }
 
 @-webkit-keyframes FadeBackground {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @-moz-keyframes FadeBackground {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @keyframes FadeBackground {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 .main {
-    max-width: 63.8vw;
+    max-width: 69.1vw;
     margin: auto;
 }
 
@@ -82,7 +102,7 @@ p {
     font-family: Poppins;
     border-radius: 5px;
     position: fixed;
-    width: 63.8vw;
+    width: 69.1vw;
     z-index: 9999;
     border: 2.5px solid #0097ff;
 }
@@ -482,7 +502,6 @@ button:hover {
 ***************************/
 
 ::-webkit-scrollbar {
-
     width: 0.79vw;
     animation: text 3s 1;
     animation: ease 3s 1;
@@ -519,7 +538,7 @@ button:hover {
 
 #informationbox {
     align-content: center;
-    width: 63.8vw;
+    width: 69.1vw;
     height: 40.0vh;
     padding: 30px;
     color: white;
@@ -544,7 +563,7 @@ button:hover {
 #smallinfobox {
     align-content: center;
     width: 31.9vw;
-    height:  24.6vh;
+    height: 24.6vh;
     color: white;
     border-radius: 1em;
     padding: 1em;
@@ -568,7 +587,7 @@ button:hover {
     font-family: sans-serif;
     height: 33.7vh;
     padding: 15.9vw;
-    width: 63.8vw;
+    width: 69.1vw;
     height: 33.7vh;
     padding: 30px;
     color: white;
@@ -592,7 +611,7 @@ button:hover {
 
 #skillbarbox {
     font-family: sans-serif;
-    width: 63.8vw;
+    width: 69.1vw;
     height: 33.1vh;
     padding: 30px;
     color: white;
@@ -669,7 +688,6 @@ button:hover {
 /*Know But Don't Use 60%*/
 
 .bar.fifthy::before {
-
     width: calc(50% - 0.53vw);
 }
 
@@ -678,23 +696,19 @@ button:hover {
 
 .bar.sixty::before {
     width: calc(60% - 0.53vw)
-
 }
 
 
 /*Understand to Extent 80%*/
 
 .bar.eighty::before {
-
     width: calc(80% - 0.53vw);
-
 }
 
 
 /*Best Skill 100%*/
 
 .bar.expert::before {
-
     width: calc(100% - 0.53vw);
 }
 
@@ -724,7 +738,7 @@ button:hover {
     --bg-filter-opacity: 0.5;
     background-image: linear-gradient(rgba(46, 46, 46, var(--bg-filter-opacity)), rgba(46, 46, 46, var(--bg-filter-opacity))), var(--bg-img);
     height: 24.6vh;
-    width: 15.9vw;
+    width: 17.9vw;
     font-size: 1.0vw;
     color: white;
     border: 2.5px solid #0097ff;
@@ -960,26 +974,28 @@ img:hover {
 .column:hover {
     box-shadow: 0 0 1.7vw 0.85vw transparent;
 }
-  
-  /* Clear floats after the columns */
-  .row:after {
+
+
+/* Clear floats after the columns */
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  
 }
 
 .column {
     float: left;
-  }
-  
-  .left, .right {
+}
+
+.left,
+.right {
     width: 33.3%;
-  }
-  
-  .middle {
+}
+
+.middle {
     width: 33.3%;
-  }
+}
 
 .box {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -1022,7 +1038,7 @@ input[type=submit]:hover {
 
 .contactcontainer {
     font-family: sans-serif;
-    width: 63.8vw;
+    width: 69.1vw;
     height: 67.4vh;
     border: 2.5px solid #0097ff;
     background-image: url(../images/Opacity.png);
@@ -1072,6 +1088,7 @@ textarea {
     max-height: 26.3vh;
     min-height: 26.3vh;
 }
+
 
 /***************************
      Contact Box END

@@ -684,6 +684,18 @@ button:hover {
     box-shadow: 0 0 2em -1em transparent;
 }
 
+@media screen and (min-width: 601px) {
+    #skillbarbox {
+        height: 33.1vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #skillbarbox {
+        height: 305px;
+    }
+}
+
 .bar {
     background-color: black;
     padding: 5px;
@@ -705,6 +717,22 @@ button:hover {
     -webkit-animation: load 2s 0s;
     -moz-animation: load 2s 0s;
     -o-animation: load 2s 0s;
+}
+
+.bar {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 601px) {
+    .bar {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bar {
+        font-size: 2vw;
+    }
 }
 
 
@@ -757,10 +785,22 @@ button:hover {
 }
 
 
-/*Best Skill 100%*/
+/*Best Skill 90%*/
 
 .bar.expert::before {
-    width: calc(100% - 0.53vw);
+    width: calc(96% - 0.53vw);
+}
+
+@media screen and (min-width: 601px) {
+    .bar.expert::before {
+        width: calc(99.5% - 0.53vw);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bar.expert::before {
+        width: calc(96% - 0.53vw);
+    }
 }
 
 :root {
@@ -790,7 +830,6 @@ button:hover {
     background-image: linear-gradient(rgba(46, 46, 46, var(--bg-filter-opacity)), rgba(46, 46, 46, var(--bg-filter-opacity))), var(--bg-img);
     height: 24.6vh;
     width: 17.9vw;
-    font-size: 1.0vw;
     color: white;
     border: 2.5px solid #0097ff;
     border-radius: 1em;
@@ -816,6 +855,18 @@ button:hover {
     font-size: 1.2vw;
     line-height: 2.0vh;
     text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+    .card h1 {
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card h1 {
+        font-size: 2.4vw;
+    }
 }
 
 .card p {
@@ -1026,8 +1077,21 @@ img:hover {
     box-shadow: 0 0 1.7vw 0.85vw transparent;
 }
 
+.column h5 {
+    font-size: 15px;
+}
 
-/* Clear floats after the columns */
+@media screen and (min-width: 601px) {
+    .column h5 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column h5 {
+        font-size: 9px;
+    }
+}
 
 .row:after {
     content: "";
@@ -1138,6 +1202,10 @@ textarea {
     height: 26.3vh;
     max-height: 26.3vh;
     min-height: 26.3vh;
+}
+
+.FormSubmitText {
+    font-size: 10px;
 }
 
 

@@ -18,11 +18,11 @@ body {
     padding: 0;
     margin: 0;
     animation: fadeIn ease 4s;
-    background: linear-gradient(270deg, #003152, #000);
+    background: linear-gradient(270deg, #003152, black);
     background-size: 400% 400%;
-    -webkit-animation: FadeBackground 10s ease infinite;
-    -moz-animation: FadeBackground 10s ease infinite;
-    animation: FadeBackground 10s ease infinite;
+    -webkit-animation: FadeBackground 15s ease infinite;
+    -moz-animation: FadeBackground 15s ease infinite;
+    animation: FadeBackground 15s ease infinite;
 }
 
 @-webkit-keyframes FadeBackground {
@@ -119,9 +119,35 @@ p {
 }
 
 .header a.logo {
-    font-size: 4vw;
-    font-size: 18px;
     font-weight: bold;
+}
+
+@media screen and (min-width: 601px) {
+    .header a.logo {
+        font-size: 1.0vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header a.logo {
+        display: none;
+    }
+}
+
+.header a.TextSmall {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 601px) {
+    .header a.TextSmall {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header a.TextSmall {
+        font-size: 9.25px;
+    }
 }
 
 .header a:hover {
@@ -189,11 +215,11 @@ p {
     position: absolute;
     width: 100%;
     height: 110vh;
-    background: linear-gradient(270deg, #003152, #000);
+    background: linear-gradient(270deg, #003152, black);
     background-size: 400% 400%;
-    -webkit-animation: FadeBackground 10s ease infinite;
-    -moz-animation: FadeBackground 10s ease infinite;
-    animation: FadeBackground 10s ease infinite;
+    -webkit-animation: FadeBackground 15s ease infinite;
+    -moz-animation: FadeBackground 15s ease infinite;
+    animation: FadeBackground 15s ease infinite;
 }
 
 .overlay {
@@ -203,11 +229,11 @@ p {
     top: -5%;
     bottom: 5%;
     height: 110vh;
-    background: linear-gradient(270deg, #003152, #000);
+    background: linear-gradient(270deg, #003152, black);
     background-size: 400% 400%;
-    -webkit-animation: FadeBackground 10s ease infinite;
-    -moz-animation: FadeBackground 10s ease infinite;
-    animation: FadeBackground 10s ease infinite;
+    -webkit-animation: FadeBackground 15s ease infinite;
+    -moz-animation: FadeBackground 15s ease infinite;
+    animation: FadeBackground 15s ease infinite;
 }
 
 .overlay p {
@@ -557,6 +583,18 @@ button:hover {
     -webkit-animation: fadeIn ease 3s;
 }
 
+@media screen and (min-height: 901px) {
+    #informationbox {
+        height: 40.0vh;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    #informationbox {
+        height: 44.0vh;
+    }
+}
+
 #informationbox:hover {
     box-shadow: 0 0 2em -1em transparent;
 }
@@ -608,6 +646,18 @@ button:hover {
 
 #educationbox:hover {
     box-shadow: 0 0 2em -1em transparent;
+}
+
+@media screen and (min-height: 901px) {
+    #educationbox {
+        height: 33.7vh;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    #educationbox {
+        height: 45.7vh;
+    }
 }
 
 #skillbarbox {

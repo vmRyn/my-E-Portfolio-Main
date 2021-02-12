@@ -119,6 +119,7 @@ p {
 }
 
 .header a.logo {
+    font-size: 4vw;
     font-size: 18px;
     font-weight: bold;
 }

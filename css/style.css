@@ -72,6 +72,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #0097ff;
+}
+
 @viewport {
     width: device-width;
     zoom: 1.0;
@@ -207,7 +211,7 @@ p {
     margin-top: 0;
     text-align: left;
     color: #101010;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .overlay-2 {
@@ -352,10 +356,10 @@ p {
 button {
     display: block;
     padding: 24px 48px;
-    font-family: sans-serif;
+    font-family: Poppins;
     font-weight: 700;
     font-size: 0.63vw;
-    letter-spacing: 0.6vw;
+    letter-spacing: 0.5vw;
     color: white;
     border: 2px solid white;
     text-transform: uppercase;
@@ -663,7 +667,7 @@ button:hover {
 #skillbarbox {
     font-family: sans-serif;
     width: 69.1vw;
-    height: 33.1vh;
+    height: 34.7vh;
     padding: 30px;
     color: white;
     border-radius: 1em;
@@ -686,7 +690,7 @@ button:hover {
 
 @media screen and (min-width: 601px) {
     #skillbarbox {
-        height: 33.1vh;
+        height: 34.7vh;
     }
 }
 
@@ -1153,7 +1157,7 @@ input[type=submit]:hover {
 
 .contactcontainer {
     font-family: sans-serif;
-    width: 69.1vw;
+    width: 53.2vw;
     height: 67.4vh;
     border: 2.5px solid #0097ff;
     background-image: url(../images/Opacity.png);

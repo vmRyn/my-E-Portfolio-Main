@@ -17,6 +17,7 @@ var config = {
         "TopMainButton": "E-Portfolio",
         "BottomMainButton": "My Github",
         "RevealButton": "Reveal Website",
-        "SendFormButton": "Send Form"
+        "SendFormButton": "Send Form",
+        "GithubLink": "Github Link"
     }
 }

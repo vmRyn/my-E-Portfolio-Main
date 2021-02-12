@@ -14,3 +14,4 @@ document.getElementById('TopMainButton').innerHTML = config.button.TopMainButton
 document.getElementById('BottomMainButton').innerHTML = config.button.BottomMainButton;
 document.getElementById('RevealButton').innerHTML = config.button.RevealButton;
 document.getElementById('SendFormButton').innerHTML = config.button.SendFormButton;
+document.getElementById('GithubLink').innerHTML = config.button.GithubLink;

@@ -18,7 +18,7 @@ body {
     padding: 0;
     margin: 0;
     animation: fadeIn ease 4s;
-    background: linear-gradient(270deg, #003152, black);
+    background: linear-gradient(270deg, #003152, #001f33);
     background-size: 400% 400%;
     -webkit-animation: FadeBackground 15s ease infinite;
     -moz-animation: FadeBackground 15s ease infinite;
@@ -260,7 +260,7 @@ p {
 }
 
 .screen:hover {
-    color: black;
+    color: White;
     font-family: sans-serif;
     position: absolute;
     left: 50%;
@@ -578,6 +578,23 @@ button:hover {
 /***************************
     INFO BOX START
 ***************************/
+
+.SocialRow {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.SocialColumn {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.SocialColumn img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
 
 #informationbox {
     align-content: center;
@@ -1215,12 +1232,12 @@ input[type=submit]:hover {
     text-decoration: none;
     animation: text 3s 1;
     background-color: black;
-    transition-duration: 0.4s;
-    transition: top 0.8s ease-out;
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
+    box-shadow: 0 0 2em -1em white;
     animation: text 3s 1;
     animation: ease 3s 1;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    transition: all, var(--transition-time);
 }
 
 .contactcontainer:hover {

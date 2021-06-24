@@ -8,7 +8,7 @@ document.getElementById('HeaderAbout').innerHTML = config.text.HeaderAbout;
 document.getElementById('HeaderSkills').innerHTML = config.text.HeaderSkills;
 document.getElementById('HeaderProjects').innerHTML = config.text.HeaderProjects;
 document.getElementById('HeaderContact').innerHTML = config.text.HeaderContact;
-document.getElementById('Footer').innerHTML = config.text.Footer;
+// document.getElementById('Footer').innerHTML = config.text.Footer;
 
 document.getElementById('TopMainButton').innerHTML = config.button.TopMainButton;
 document.getElementById('BottomMainButton').innerHTML = config.button.BottomMainButton;

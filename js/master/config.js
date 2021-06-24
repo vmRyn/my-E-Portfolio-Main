@@ -9,8 +9,8 @@ var config = {
         "HeaderAbout": "ABOUT ME",
         "HeaderSkills": "MY SKILLS",
         "HeaderProjects": "PROJECTS",
-        "HeaderContact": "CONTACT ME",
-        "Footer": "© DESIGNED BY RYN"
+        "HeaderContact": "CONTACT ME"
+            // "Footer": "© DESIGNED BY RYN"
     },
 
     "button": {

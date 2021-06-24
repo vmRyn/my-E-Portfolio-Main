@@ -85,10 +85,6 @@ a:hover {
     width: device-width;
 }
 
-p {
-    font-size: 50px;
-}
-
 
 /***************************
     BODY END
@@ -596,6 +592,17 @@ button:hover {
     vertical-align: middle;
 }
 
+.SocialRow img {
+    border: 2.5px solid #0097ff;
+    border-radius: 50%;
+}
+
+.SocialRow img:hover {
+    box-shadow: 0 0 2em -1em white;
+    animation: fadeIn ease 1.5s;
+    -webkit-animation: fadeIn ease 1.5s;
+}
+
 #informationbox {
     align-content: center;
     width: 69.1vw;
@@ -861,6 +868,9 @@ button:hover {
     font-family: sans-serif;
     --bg-filter-opacity: 0.5;
     background-image: linear-gradient(rgba(46, 46, 46, var(--bg-filter-opacity)), rgba(46, 46, 46, var(--bg-filter-opacity))), var(--bg-img);
+    background-size: 50%;
+    background-repeat: none;
+    background-position: center;
     height: 24.6vh;
     width: 17.9vw;
     color: white;
@@ -869,8 +879,6 @@ button:hover {
     padding: 1em;
     display: flex;
     align-items: flex-end;
-    background-size: cover;
-    background-position: center;
     box-shadow: 0 0 2em -1em white;
     transition: all, var(--transition-time);
     position: relative;
@@ -988,7 +996,7 @@ h4 {
 }
 
 p {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 hr {
@@ -1222,8 +1230,6 @@ input[type=submit]:hover {
     font-family: sans-serif;
     width: 53.2vw;
     height: 67.4vh;
-    border: 2.5px solid #0097ff;
-    background-image: url(../images/Opacity.png);
     padding: 30px;
     color: white;
     border-radius: 1em;
@@ -1231,13 +1237,15 @@ input[type=submit]:hover {
     transition: all, var(--transition-time);
     text-decoration: none;
     animation: text 3s 1;
-    background-color: black;
-    box-shadow: 0 0 2em -1em white;
     animation: text 3s 1;
     animation: ease 3s 1;
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
     transition: all, var(--transition-time);
+}
+
+.label {
+    box-shadow: 0 0 2em -1em red;
 }
 
 .contactcontainer:hover {

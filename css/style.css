@@ -542,13 +542,6 @@ button:hover {
 
 ::-webkit-scrollbar {
     width: 0.79vw;
-    animation: text 3s 1;
-    animation: ease 3s 1;
-}
-
-::-webkit-scrollbar:hover {
-    animation: text 3s 1;
-    animation: ease 3s 1;
 }
 
 ::-webkit-scrollbar-track {
@@ -557,8 +550,6 @@ button:hover {
 
 ::-webkit-scrollbar-thumb {
     background: grey;
-    animation: text 3s 1;
-    animation: ease 3s 1;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -726,7 +717,7 @@ button:hover {
 
 @media screen and (min-width: 601px) {
     #skillbarbox {
-        height: 34.7vh;
+        height: 40.7vh;
     }
 }
 
@@ -1106,6 +1097,7 @@ img:hover {
     text-align: center;
     font-family: arial;
     border: 2.5px solid #0097ff;
+    border-radius: 1em;
     box-shadow: 0 0 2em -1em white;
 }
 
@@ -1115,8 +1107,8 @@ img:hover {
 }
 
 .myProjects img {
+    border-radius: 1em;
     border: none;
-    border-radius: 0px;
 }
 
 .myProjects button {

@@ -17,9 +17,9 @@ body {
     height: 100vh;
     padding: 0;
     margin: 0;
-    animation: fadeIn ease 2s;
-    background: linear-gradient(100deg, #003152, #001f33);
-    background-size: 200% 200%;
+    animation: fadeIn ease 4s;
+    background: linear-gradient(270deg, #003152, #001f33);
+    background-size: 400% 400%;
     -webkit-animation: FadeBackground 15s ease infinite;
     -moz-animation: FadeBackground 15s ease infinite;
     animation: FadeBackground 15s ease infinite;

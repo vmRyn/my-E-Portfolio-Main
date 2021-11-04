@@ -723,7 +723,7 @@ button:hover {
 
 @media screen and (max-width: 600px) {
     #skillbarbox {
-        height: 305px;
+        height: 325px;
     }
 }
 
@@ -891,7 +891,7 @@ button:hover {
 
 @media screen and (min-width: 601px) {
     .card h1 {
-        font-size: 1.2vw;
+        font-size: 2.4vw;
     }
 }
 
@@ -1137,7 +1137,25 @@ img:hover {
     animation: ease 3s 1;
     animation: fadeIn ease 3s;
     -webkit-animation: fadeIn ease 3s;
-    height: 46vh;
+    height: 45vh;
+}
+
+@media screen and (min-width: 601px) {
+    .column {
+        height: 45vh;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .column {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        height: 30vh;
+    }
 }
 
 .column:hover {

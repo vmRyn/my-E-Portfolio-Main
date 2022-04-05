@@ -256,6 +256,7 @@ a:hover {
 
 .screen:hover {
     color: #323232;
+    text-shadow: 4px 4px black;
     font-family: Poppins;
     position: absolute;
     left: 50%;
@@ -316,8 +317,6 @@ a:hover {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
 }
 
 .ShowmyBtn {
@@ -555,6 +554,17 @@ button:hover {
 ::-webkit-scrollbar-thumb:hover {
     background: black;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 
 /***************************

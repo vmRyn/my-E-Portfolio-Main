@@ -18,7 +18,7 @@ body {
     padding: 0;
     margin: 0;
     animation: fadeIn ease 4s;
-    background: linear-gradient(270deg, #003152, #001f33);
+    background: #101010;
     background-size: 400% 400%;
     -webkit-animation: FadeBackground 15s ease infinite;
     -moz-animation: FadeBackground 15s ease infinite;
@@ -73,7 +73,7 @@ a {
 }
 
 a:hover {
-    color: #0097ff;
+    color: black;
 }
 
 @viewport {
@@ -104,7 +104,7 @@ a:hover {
     position: fixed;
     width: 69.1vw;
     z-index: 9999;
-    border: 2.5px solid #0097ff;
+    border: 2.5px solid black;
 }
 
 .header a {
@@ -151,12 +151,12 @@ a:hover {
 }
 
 .header a:hover {
-    background-color: #0097ff;
+    background-color: black;
     color: white;
 }
 
 .header a.active {
-    background-color: #0097ff;
+    background-color: black;
     color: white;
 }
 
@@ -215,7 +215,7 @@ a:hover {
     position: absolute;
     width: 100%;
     height: 110vh;
-    background: linear-gradient(270deg, #003152, black);
+    background: #101010;
     background-size: 400% 400%;
     -webkit-animation: FadeBackground 15s ease infinite;
     -moz-animation: FadeBackground 15s ease infinite;
@@ -229,7 +229,7 @@ a:hover {
     top: -5%;
     bottom: 5%;
     height: 110vh;
-    background: linear-gradient(270deg, #003152, black);
+    background: #101010;
     background-size: 400% 400%;
     -webkit-animation: FadeBackground 15s ease infinite;
     -moz-animation: FadeBackground 15s ease infinite;
@@ -242,13 +242,12 @@ a:hover {
 }
 
 .screen {
-    color: #0097ff;
-    font-family: sans-serif;
+    color: #323232;
+    font-family: Poppins;
     position: absolute;
     top: 19%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 2px 2px white;
     animation: text 3s 1;
     transition-duration: 0.4s;
     animation: fadeIn ease 5s;
@@ -256,12 +255,11 @@ a:hover {
 }
 
 .screen:hover {
-    color: White;
-    font-family: sans-serif;
+    color: #323232;
+    font-family: Poppins;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-shadow: 2px 2px #0097ff;
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
 }
@@ -297,6 +295,7 @@ a:hover {
     transform: translate(-50%, -50%);
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
+    border-radius: 30px;
 }
 
 .myBtn2 {
@@ -308,6 +307,7 @@ a:hover {
     transform: translate(-50%, -50%);
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
+    border-radius: 30px;
 }
 
 .myBtn3 {
@@ -327,8 +327,8 @@ a:hover {
     top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
+    animation: fadeIn ease 0s;
+    -webkit-animation: fadeIn ease 0s;
 }
 
 .ContactBtn {
@@ -414,7 +414,7 @@ button:hover {
 .myBtn:before {
     content: "";
     position: absolute;
-    background: #0097ff;
+    background: black;
     border: 4px solid #101010;
     bottom: 0;
     left: 0;
@@ -427,7 +427,7 @@ button:hover {
 .myBtn2:before {
     content: "";
     position: absolute;
-    background: #0097ff;
+    background: black;
     border: 4px solid #101010;
     bottom: 0;
     left: 0;
@@ -440,7 +440,7 @@ button:hover {
 .myBtn3:before {
     content: "";
     position: absolute;
-    background: #0097ff;
+    background: black;
     border: 4px solid #101010;
     bottom: 0;
     left: 0;
@@ -453,7 +453,7 @@ button:hover {
 .ShowmyBtn:before {
     content: "";
     position: absolute;
-    background: #0097ff;
+    background: black;
     border: 4px solid #101010;
     bottom: 0;
     left: 0;
@@ -466,7 +466,7 @@ button:hover {
 .ContactBtn:before {
     content: "";
     position: absolute;
-    background: #0097ff;
+    background: black;
     border: 4px solid #101010;
     bottom: 0;
     left: 0;
@@ -479,7 +479,7 @@ button:hover {
 .ContactBtn2:before {
     content: "";
     position: absolute;
-    background: #0097ff;
+    background: black;
     border: 4px solid #101010;
     bottom: 0;
     left: 0;
@@ -492,7 +492,7 @@ button:hover {
 .BackHome:before {
     content: "";
     position: absolute;
-    background: #0097ff;
+    background: black;
     border: 4px solid #101010;
     bottom: 0;
     left: 0;
@@ -553,7 +553,7 @@ button:hover {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #0097ff;
+    background: black;
 }
 
 
@@ -584,7 +584,7 @@ button:hover {
 }
 
 .SocialRow img {
-    border: 2.5px solid #0097ff;
+    border: 2.5px solid black;
     border-radius: 50%;
 }
 
@@ -604,7 +604,7 @@ button:hover {
     padding: 1em;
     box-shadow: 0 0 2em -1em white;
     transition: all, var(--transition-time);
-    border: 2.5px solid #0097ff;
+    border: 2.5px solid black;
     text-decoration: none;
     animation: text 3s 1;
     animation: ease 3s 1;
@@ -639,7 +639,7 @@ button:hover {
     padding: 1em;
     box-shadow: 0 0 2em -1em white;
     transition: all, var(--transition-time);
-    border: 2.5px solid #0097ff;
+    border: 2.5px solid black;
     text-decoration: none;
     animation: text 3s 1;
     animation: ease 3s 1;
@@ -665,7 +665,7 @@ button:hover {
     padding: 1em;
     box-shadow: 0 0 2em -1em white;
     transition: all, var(--transition-time);
-    border: 2.5px solid #0097ff;
+    border: 2.5px solid black;
     text-decoration: none;
     animation: text 3s 1;
     animation: ease 3s 1;
@@ -701,7 +701,7 @@ button:hover {
     padding: 1em;
     box-shadow: 0 0 2em -1em white;
     transition: all, var(--transition-time);
-    border: 2.5px solid #0097ff;
+    border: 2.5px solid black;
     text-decoration: none;
     animation: text 3s 1;
     animation: ease 3s 1;
@@ -865,7 +865,7 @@ button:hover {
     height: 24.6vh;
     width: 17.9vw;
     color: white;
-    border: 2.5px solid #0097ff;
+    border: 2.5px solid black;
     border-radius: 1em;
     padding: 1em;
     display: flex;
@@ -959,7 +959,7 @@ button:hover {
 
 h1 {
     font-size: 2.25vw;
-    color: #0097ff;
+    color: white;
     text-align: center;
     transition-duration: 0.4s;
     text-shadow: 1px 1px 5px black;
@@ -969,13 +969,8 @@ h1 {
     -webkit-animation: fadeIn ease 3s;
 }
 
-h1:hover {
-    color: #0097ff;
-    text-shadow: 1px 1px 2px white;
-}
-
 h2 {
-    color: #0097ff;
+    color: black;
 }
 
 h5 {
@@ -983,7 +978,7 @@ h5 {
 }
 
 h4 {
-    color: #0097ff;
+    color: black;
 }
 
 p {
@@ -1001,7 +996,7 @@ hr {
 ***************************/
 
 img {
-    border: 2.5px solid #0097ff;
+    border: 2.5px solid black;
     border-radius: 1em;
 }
 
@@ -1021,7 +1016,7 @@ img:hover {
     font-family: Poppins;
     width: 100%;
     color: white;
-    text-shadow: 1px 1px 5px #0097ff;
+    text-shadow: 1px 1px 5px black;
     text-align: center;
     position: relative;
     transition-duration: 0.4s;
@@ -1032,11 +1027,11 @@ img:hover {
     background-color: #101010;
     padding: 5px 10px;
     border-radius: 5px;
-    border: 2.5px solid #0097ff;
+    border: 2.5px solid black;
 }
 
 .footer p:hover {
-    color: #0097ff;
+    color: black;
     text-shadow: 1px 1px 5px white;
 }
 
@@ -1096,7 +1091,7 @@ img:hover {
     margin: auto;
     text-align: center;
     font-family: arial;
-    border: 2.5px solid #0097ff;
+    border: 2.5px solid black;
     border-radius: 1em;
     box-shadow: 0 0 2em -1em white;
 }

@@ -24,7 +24,7 @@
             <br>
         </center>
         <div class="intro">
-            <button class="myBtn" onclick="fadeOut(),ShowAndHide2() ;play()" id="TopMainButton"></button>
+            <button class="myBtn" onclick="fadeOut(),ShowAndHide2() ;play(),ShowAndHide() ;fadeIn() ;HideNav() ;play()" id="TopMainButton"></button>
             </br>
             <button class="myBtn2" onclick="play()"><a href="https://github.com/vmRyn"target="_blank" id="BottomMainButton"></a></button>
         </div>
@@ -38,7 +38,7 @@
     <div class="main">
 
         <div id="ShowButtonLast" style="display:none;">
-            <button class="ShowmyBtn" onclick="ShowAndHide() ;fadeIn() ;HideNav() ;play()" id="RevealButton"></button>
+            <button hidden="hidden" class="ShowmyBtn" onclick="ShowAndHide() ;fadeIn() ;HideNav() ;play()" id="RevealButton"></button>
         </div>
 
         <div id="HideNavBar" style="display:none;">
@@ -398,7 +398,7 @@
         function ShowAndHide2() {
             var x = document.getElementById('ShowButtonLast');
             if (x.style.display == 'none') {
-                x.style.display = 'block';
+                x.style.display = 'none';
             } else {
                 x.style.display = 'none';
             }
